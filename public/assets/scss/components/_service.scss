@@ -1,0 +1,183 @@
+/* service css */
+
+.service-area {
+    &__2 {
+        background: $blue-dark;
+    }
+}
+
+.service-item {
+    align-items: center;
+    box-shadow: 0px 8px 30px 0px rgba(2, 24, 95, 0.08);
+    @include respond(xs) {
+        flex-direction: column;
+        padding: 40px 32px;
+        align-items: flex-start;
+    }
+    @include respond(sm) {
+        flex-direction: row;
+        padding: 0px 0px;
+    }
+    &__icon {
+        @include d-flex;
+        @include flexWidth(170px);
+        align-items: center;
+        justify-content: center;
+        min-height: 170px;
+        border-radius: 5px;
+        @include respond(xs) {
+            width: 170px;
+        }
+        @include respond(sm) {
+            margin-bottom: 0;
+            width: auto;
+        }
+        &--1 {
+            background: $green;
+        }
+        &--2 {
+            background: $theme-color;
+        }
+        &--3 {
+            background: $yellow;
+        }
+        &--4 {
+            background: $blue;
+        }
+        &--noborder {
+            border-radius: 5px 0px 0px 5px;
+            @include respond(xs) {
+                @include flexWidth(100%);
+                border-radius: 0px;
+                width: 100%;
+            }
+            @include respond(sm) {
+                @include flexWidth(170px);
+                border-radius: 5px 0px 0px 5px;
+                width: auto;
+            }
+        }
+        img {
+            @include transition(.3s);
+        }
+    }
+    &__content {
+        background: $white;
+        padding-left: 40px;
+        padding-right: 30px;
+        padding-top: 38px;
+        padding-bottom: 38px;
+        @include respond(xs) {
+            padding-left: 0;
+            padding-right: 0;
+            padding-bottom: 0px;
+        }
+        @include respond(sm) {
+            padding-left: 40px;
+            padding-right: 30px;
+        }
+        p {
+            line-height: 27px;
+        }
+        &--2 {
+            @include respond(xs) {
+                padding-left: 40px;
+                padding-right: 30px;
+                padding-bottom: 38px;
+            }
+            @include respond(sm) {
+                padding-left: 40px;
+                padding-right: 30px;
+                padding-bottom: 38px;
+            }
+        }
+    }
+    &__title {
+        font-size: 22px;
+        margin-bottom: 10px;
+        @include transition(.3s);
+    }
+    &:hover {
+        .service-item__icon {
+            img {
+                @include transform(scale(.8));
+            }
+        }
+        .service-item__title {
+            color: $theme-color;
+        }
+    }
+    &__2 {
+        @include respond(xs) {
+            padding: 0px;
+            align-items: center;
+        }
+        @include respond(sm) {
+            align-items: flex-end;
+        }
+    }
+}
+
+.view-all {
+    a {
+        font-weight: 700;
+        color: $theme-color;
+        font-family: $headingfont;
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+}
+
+.service-box {
+    padding: 40px 40px;
+    background: #FFB400;
+    position: relative;
+    z-index: 1;
+    @include transition(.3s);
+    &__1 {
+        background: #0F418F;
+    }
+    &__2 {
+        background: #FFB400;
+    }
+    &__3 {
+        background: #FF442B;
+    }
+    &__title {
+        color: $white;
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    p {
+        line-height: 27px;
+        color: $white;
+    }
+    .inline-btn {
+        color: $white;
+        margin-top: 20px;
+        .icon {
+            color: $white;
+        }
+    }
+    .shape {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        z-index: -1;
+        height: auto;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.service__bg {
+    height: 100%;
+    @include respond(lg) {
+        margin-top: 50px;
+    }
+    img {
+        width: 100%;
+    }
+}

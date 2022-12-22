@@ -1,0 +1,26 @@
+/*cta css*/
+.cta-right {
+    p {
+        color: $white;
+        font-family: $headingfont;
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    width: 222px;
+    @include d-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0px 0px 0px auto;
+    align-items: center;
+    @include respond(lg) {
+        text-align: left !important;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0;
+        margin-top: 50px;
+    }
+    .site-btn {
+        margin-top: 25px;
+    }
+}

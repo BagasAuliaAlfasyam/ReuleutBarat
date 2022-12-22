@@ -1,0 +1,32 @@
+/* counter section css */
+.counter-area {
+    padding-top: 355px;
+}
+
+.counter-box {
+    .odometer {
+        font-size: 60px;
+        font-family: $defaultfont;
+        margin-top: 13px;
+        margin-bottom: 3px;
+        span {
+            color: $white;
+        }
+    }
+    p {
+        font-size: 22px;
+        color: $white;
+        font-family: $headingfont;
+        font-weight: 700;
+    }
+    &__2 {
+        .odometer {
+            span {
+                color: $primary-color;
+            }
+        }
+        p {
+            color: #6B727E;
+        }
+    }
+}

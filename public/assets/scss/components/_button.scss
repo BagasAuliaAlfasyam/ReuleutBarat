@@ -1,0 +1,104 @@
+/*button css*/
+
+.site-btn {
+    display: inline-block;
+    background: $black;
+    color: $white;
+    padding-right: 40px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: $headingfont;
+    border-radius: 40px;
+    font-weight: 700;
+    padding-left: 0px;
+    line-height: 26px;
+    .icon {
+        width: 60px;
+        height: 60px;
+        background: $white;
+        display: inline-block;
+        line-height: 60px;
+        border-radius: 50%;
+        text-align: center;
+        margin: 5px;
+        margin-right: 25px;
+        font-size: 20px;
+        color: $theme-color;
+        @include transition(.3s);
+        &__black {
+            background: $primary-color;
+        }
+    }
+    &:hover {
+        background: $theme-color;
+        color: $white;
+        .icon {
+            color: $white;
+            background: $theme-color;
+        }
+    }
+    &__s2 {
+        background: $theme-color;
+        .icon {
+            color: $white;
+        }
+        &:hover {
+            background: $black;
+        }
+    }
+    &__s3 {
+        background: $white;
+        color: $primary-color;
+        &:hover {
+            background: $black;
+        }
+        .icon {
+            background: $theme-color;
+            color: $white;
+        }
+    }
+    &__2 {
+        display: inline-block;
+        padding: 17px 35px;
+        background-color: $theme-color;
+        position: relative;
+        z-index: 2;
+        min-width: 190px;
+        .icon {
+            background-color: transparent;
+            padding: 0px;
+            margin-right: 0px;
+            width: auto;
+            height: auto;
+            line-height: 0px;
+            margin-right: 10px;
+            color: $white;
+            margin: 0;
+            margin-right: 10px;
+            @include transform(translateY(2px));
+        }
+        &:hover {
+            background-color: $primary-color;
+            .icon {
+                background: transparent;
+            }
+        }
+    }
+}
+
+.inline-btn {
+    font-size: 13px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: $theme-color;
+    font-weight: 700;
+    .icon {
+        margin-right: 6px;
+        color: $theme-color;
+    }
+    &:hover {
+        .icon {
+            color: $pera-color;
+        }
+    }
+}

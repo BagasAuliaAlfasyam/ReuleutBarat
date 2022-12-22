@@ -1,0 +1,110 @@
+/*team css*/
+.team-box {
+    @include transition(.3s);
+    &__thumb {
+        position: relative;
+        z-index: 2;
+        padding: 0px 12px;
+        img {
+            width: 100%;
+        }
+    }
+    &__content {
+        padding: 40px 25px;
+        padding-top: 25px;
+        text-align: center;
+        border-top: 0px;
+        position: relative;
+        padding-bottom: 30px;
+        position: relative;
+        z-index: 1;
+        &::after,&::before {
+            top: -210px;
+            min-height: 210px;
+            width: 100%;
+            border: 2px solid #2A4877;
+            border-bottom: 0px;
+            content: "";
+            position: absolute;
+            left: 0;
+            @include transition(.3s);
+            z-index: -1;
+        }
+        &::after {
+            top: auto;
+            bottom: 0;
+            border-top: 0px;
+            border-bottom: 2px solid #2A4877;
+        }
+        .name {
+            font-size: 22px;
+            color: $white;
+            margin-bottom: 7px;
+        }
+        .designation {
+            color: $white;
+            opacity: .70;
+        }
+        &--2 {
+            &::after,&::before {
+                border-color: #DCDEE0;
+            }
+            .name {
+                color: $primary-color;
+            }
+            .designation {
+                color: $pera-color
+            }
+        }
+    }
+    .social-links {
+        @include d-flex;
+        justify-content: center;
+        margin-top: 20px;
+        a {
+            width: 38px;
+            height: 38px;
+            text-align: center;
+            border: 1px solid $white;
+            font-size: 15px;
+            @include d-flex;
+            align-items: center;
+            justify-content: center;
+            color: $white;
+            border-radius: 50%;
+            &:hover {
+                color: $white;
+                background: $theme-color;
+                border-color: $theme-color;
+            }
+            &:not(:last-child) {
+                margin-right: 15px;
+            }
+        }
+        &__2 {
+            a {
+                border-color: #DFE0E2;
+                background:  transparent;
+                color: $primary-color;
+            }
+        }
+    }
+    &:hover {
+        .team-box__content::after,
+        .team-box__content::before {
+            border-color: $theme-color;
+        }
+    }
+    &__2 {
+        &:hover {
+            .team-box__content {
+                &--2 {
+                    &::after, &::before {
+                        border-color: transparent;
+                        box-shadow: 0px 20px 35px 0px rgba(0, 15, 105, 0.08);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,160 @@
+/*service details css*/
+.sidebar {
+    padding: 35px 35px;
+    &__title {
+        font-size: 22px;
+        margin-bottom: 15px;
+        &--white {
+            color: $white;
+            margin-bottom: 40px;
+        }
+    }
+    &__list {
+        li {
+            position: relative;
+            @include transition(.3s);
+            a {
+                background: $white;
+                color: $primary-color;
+                font-family: $headingfont;
+                font-weight: 600;
+                display: block;
+                padding: 17px;
+                padding-right: 65px;
+            }
+            &:not(:last-child) {
+                margin-bottom: 20px;
+            }
+            .icon {
+                width: 60px;
+                height: 60px;
+                @include d-flex;
+                align-items: center;
+                justify-content: center;
+                background: #E8EAEC;
+                position: absolute;
+                right: 0;
+                top: 0;
+                @include transition(.3s);
+                color: $primary-color;
+            }
+            &:hover {
+                .icon {
+                    background: $theme-color;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+.design-item {
+    @include d-flex;
+    align-items: center;
+    background: $white;
+    @include transition(.3s);
+    &--icon {
+        @include d-flex;
+        @include flexWidth(60px);
+        justify-content: center;
+        align-items: center;
+        border-right: 1px solid #DEE0E3;
+        min-height: 60px;
+        .hover {
+            display: none;
+        }
+    }
+    &--content {
+        padding-left: 20px;
+        h4 {
+            color: $primary-color;
+            font-weight: 600;
+            @include transition(.3s);
+        }
+    }
+    &:hover {
+        background-color: $theme-color;
+        .design-item--icon {
+            .hover {
+                display: flex;
+            }
+            .default {
+                display: none;
+            }
+        }
+        .design-item--content {
+            h4 {
+                color: $white;
+            }
+        }
+    }
+}
+
+.details-content {
+    @include respond(lg) {
+        margin-top: 80px;
+    }
+    @include respond(md) {
+        margin-top: 80px;
+    }
+    &__thumb {
+        img {
+            width: 100%;
+        }
+    }
+    &__title {
+        font-size: 30px;
+    }
+    &__project {
+        @include respond(lg) {
+        margin-top: 0px;
+        }
+        @include respond(md) {
+            margin-top: 0px;
+        }
+    }
+}
+
+.design-guideline {
+    @include respond(lg) {
+        margin-top: 40px;
+    }
+    @include respond(md) {
+        margin-top: 40px;
+    }
+    li {
+        color: #6B727E;
+        overflow: hidden;
+        padding-bottom: 15px;
+        &:not(:last-child) {
+            margin-bottom: 17px;
+            border-bottom: 1px solid #DEE0E3;
+        }
+        span {
+            float: right;
+        }
+    }
+}
+
+.postcard-item {
+    border: 1px solid #E3E6E8;
+    padding: 45px 25px;
+    text-align: center;
+    @include transition(.3s);
+    &__price {
+        font-size: 36px;
+        color: $theme-color;
+        margin-bottom: 5px;
+        @include transition(.3s);
+    }
+    &:hover {
+        background-color: $theme-color;
+        border-color: $theme-color;
+        .postcard-item__price {
+            color: $white;
+        }
+        p {
+            color: $white;
+        }
+    }
+}

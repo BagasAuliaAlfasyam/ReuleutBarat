@@ -1,0 +1,130 @@
+/*gta css*/
+
+.gta-area {
+    .pl-70 {
+        @include respond(lg) {
+            padding-left: 15px !important;
+        }
+        @include respond(md) {
+            padding-left: 15px !important;
+        }
+    }
+    &__2 {
+        overflow: hidden;
+        .pl-50 {
+            @include respond(lg) {
+                padding-left: 15px !important;
+            }
+            @include respond(md) {
+                padding-left: 15px !important;
+            }
+        }
+    }
+}
+
+#contact-map {
+    min-height: 575px;
+    width: 575px;
+    border-radius: 50%;
+    @include respond(lg) {
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+    @include respond(xs) {
+        min-height: 350px;
+        width: 350px;
+    }
+    @include respond(sm) {
+        min-height: 520px;
+        width: 520px;
+    }
+    @media (max-width: 400px) {
+        min-height: 300px;
+        width: 300px; 
+    }
+}
+
+.contact-form {
+    input, textarea {
+        border: 1px solid #E3E4E6;
+        font-size: 16px;
+        width: 100%;
+        padding: 21px 30px;
+        border-radius: 40px;
+        @include placeholder(#6B727E !important);
+    }
+    textarea {
+        min-height: 170px;
+    }
+    .form-group {
+        margin-bottom: 0px !important;
+    }
+    .site-btn {
+        &__2 {
+            padding: 19.5px 43px;
+        }
+    }
+    &__2 {
+        textarea {
+            min-height: 240px;
+        }
+    }
+    &__3 {
+        input, textarea { 
+            border-radius: 0px;
+            padding: 16px 20px;
+            border-color: transparent;
+            background-color: $white;
+            font-size: 15px;
+        }
+        .form-group {
+            margin-bottom: 0px !important;
+        }
+        textarea {
+            min-height: 130px;
+        }
+        .site-btn {
+            &__2 {
+                padding: 17px 43px;
+            }
+        }
+    }
+}
+
+.gta-bg {
+    img {
+        border-radius: 50%;
+    }
+    @include respond(lg) {
+        margin-bottom: 80px;
+    }
+    @include respond(md) {
+        margin-bottom: 80px;
+    }
+    &__2 {
+        @include transform(translateX(-270px));
+        @include respond(laptop) {
+            @include transform(translateX(-80px));
+        }
+        @include respond(lg) {
+            @include transform(translateX(0px));
+            margin-bottom: 80px;
+        }
+        @include respond(md) {
+            @include transform(translateX(0px));
+            margin-bottom: 80px;
+        }
+        img {
+            max-width: inherit;
+            @include respond(laptop) {
+                max-width: 110%;
+            }
+            @include respond(lg) {
+                max-width: 100%;
+            }
+            @include respond(md) {
+                max-width: 100%;
+            }
+        }
+    }
+}

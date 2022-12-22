@@ -1,0 +1,121 @@
+/*Why Choice Us css*/
+.wcu-area {
+    position: relative;
+    overflow: hidden;
+    @include respond(lg) {
+        padding-bottom: 0px;
+    }
+    .wcu-shape {
+        position: absolute;
+        left: 120px;
+        bottom: -25px;
+        @media (max-width: 1750px) {
+            max-width: 680px;
+        }
+        @media (max-width: 1650px) {
+            max-width: 640px;
+            left: 75px;
+            bottom: -14px;
+        }
+        @include respond(laptop) {
+            max-width: 650px;
+            left: 15px;
+        }
+        @media (max-width: 1350px) {
+            max-width: 600px;
+            img {
+                min-height: 650px;
+            }
+        }
+        @media (max-width: 1250px) {
+            max-width: 530px;
+        }
+        @include respond(lg) {
+            position: inherit;
+            max-width: inherit;
+            margin-top: 80px;
+            img {
+                width: auto;
+                min-height: inherit;
+            }
+        }
+        @include respond(md) {
+            max-width: 530px;
+        }
+        @include respond(xs) {
+            max-width: 300px;
+            left: 20px;
+        }
+        @include respond(sm) {
+            max-width: 380px;
+            left: 30px;
+        }
+        @media (max-width: 450px ) {
+            left: 15px;
+        }
+    }
+    &__2 {
+        @include respond(lg) {
+            padding-bottom: 125px;
+        }
+        @include respond(md) {
+            padding-bottom: 125px;
+        }
+    }
+}
+.wcu-box {
+    &__wrapper {
+        .wcu-box:not(:last-child) {
+            border-bottom: 1px solid #3D5983;
+            padding-bottom: 40px;
+        }
+        &--2 {
+            .wcu-box:not(:last-child) {
+                border-color: #DFE0E1;
+            }
+        }
+    }
+    @include d-flex;
+    align-items: center;
+    &__icon {
+        @include flexWidth(82px);
+        @include d-flex;
+        background: $white;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        min-height: 82px;
+        &--2 {
+            background-color: $yellow;
+        }
+        &--red {
+            background-color: $theme-color;
+        }
+    }
+    &__content {
+        padding-left: 30px;
+        @include flexWidth(85%);
+        @include respond(xs) {
+            padding-left: 0px;
+            @include flexWidth(100%);
+            margin-top: 30px;
+        }
+    }
+    &__title {
+        font-size: 22px;
+        color: $white;
+        margin-bottom: 15px;
+        &--2 {
+            color: $primary-color;
+        }
+    }
+    p {
+        color: $white;
+        opacity: .70;
+    }
+    &__2 {
+        p {
+            color: $primary-color;
+        }
+    }
+}

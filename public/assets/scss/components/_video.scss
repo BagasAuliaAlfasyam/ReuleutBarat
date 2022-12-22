@@ -1,0 +1,167 @@
+/*Video css*/
+.video-area {
+    padding: 0px 105px;
+    margin-top: -170px;
+    position: relative;
+    z-index: 2;
+    @media (max-width: 1610px) { 
+        padding: 0px 80px;
+    }
+    @media (max-width: 1560px) {
+        padding: 0px 15px;
+    }
+    @include respond(laptop) {
+        padding: 0px;
+    }
+    @include respond(md) {
+        padding: 0px;
+    }
+    &__2 {
+        padding-left: 0px 0px;
+        margin-top: 0px;
+        margin-bottom: -225px;
+    }
+    &__3 {
+        padding-top: 130px;
+        padding-bottom: 130px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+}
+
+.quote-wrapper {
+    background: $yellow;
+    text-align: center;
+    padding: 80px;
+    @media (max-width: 1610px) { 
+        padding: 80px 48px;
+    }
+    @media (max-width: 1400px) { 
+        padding: 60px 48px;
+    }
+    @include respond(lg) {
+        padding: 80px;
+    }
+    @include respond(xs) {
+        padding: 80px 20px;
+    }
+    @include respond(sm) {
+        padding: 80px 60px;
+    }
+    .quote-title {
+        font-weight: 800;
+        font-size: 55px;
+        text-transform: uppercase;
+        margin-bottom: 45px;
+        @include respond(laptop) {
+            font-size: 50px;
+        }
+        @media (max-width: 1400px) {
+            font-size: 45px;
+        }
+        @media (max-width: 1250px) {
+            font-size: 42px;
+        }
+        @include respond(lg) {
+            font-size: 55px;
+        }
+        @include respond(md) {
+            font-size: 40px;
+        }
+    }
+}
+
+.quote-form {
+    input, textarea {
+        background: $white;
+        width: 100%;
+        border-radius: 3px;
+        @include placeholder(#6B727E !important);
+        border: none;
+        padding: 20.5px 20px;
+    }
+    textarea {
+        min-height: 130px;
+    }
+    .nice-select {
+        width: 100%;
+        background: $white;
+        margin-bottom: 15px;
+        border-radius: 3px;
+        border: none;
+        min-height: 65px !important;
+        padding-left: 0px;
+        &::after {
+            width: 7px;
+            height: 7px;
+            right: 20px;
+        }
+        .current {
+            line-height: 65px;
+            width: 100%;
+            padding-left: 20px;
+            font-size: 16px;
+            color: #6B727E;
+        }
+        .list {
+            width: 100%;
+            border-radius: 0px;
+        }
+    }
+    .quote-btn {
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        padding: 19.5px;
+        .icon {
+            margin-right: 10px;
+            color: $white;
+        }
+    }
+}
+
+.video__bg {
+    position: relative;
+    @include respond(lg) {
+        min-height: 700px;
+    }
+    @media (max-width: 500px) {
+        min-height: 500px;
+    }
+    .video-container-wrap {
+        position: absolute;
+        width: auto;
+        height: auto;
+        left: 50%;
+        top: 50%;
+        @include transform(translate(-50%, -50%));
+        @include respond(xs) {
+            @include d-flex;
+            align-items: center;
+            @include flexWidth(100%);
+            flex-direction: column;
+        }
+        @include respond(sm) {
+            display: inline-block;
+            align-items: center;
+        }
+        &__2 {
+            @include d-flex;
+            align-items: center;
+            @include flexWidth(100%);
+            flex-direction: column;
+        }
+    }
+    &--2 {
+        min-height: 775px;
+        @include respond(md) {
+            min-height: 600px;
+        }
+        @include respond(xs) {
+            min-height: 450px;
+        }
+        @include respond(sm) {
+            min-height: 600px;
+        }
+    } 
+}

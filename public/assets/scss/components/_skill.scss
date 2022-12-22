@@ -1,0 +1,87 @@
+/*skill css*/
+.strategy-section {
+    .pl-60 {
+        @include respond(lg) {
+            padding-left: 15px;
+        }
+        @include respond(md) {
+            padding-left: 15px;
+        }
+    }
+}
+
+.strategy_bg {
+    img {
+        border-radius: 50%;
+    }
+    @include respond(lg) {
+        margin-bottom: 60px;
+    }
+    @include respond(md) {
+        margin-bottom: 60px;
+    }
+}
+
+.skill-boxs {
+    overflow: hidden;
+    .skill-item {
+        position: relative;
+        .bar-title {
+            h4 {
+                font-size: 13px;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+                font-weight: 500;
+                color: $primary-color;
+                font-family: $defaultfont;
+            }
+        }
+        .progress {
+            height: 12px;
+            border-radius: 4px;
+            overflow: visible;
+            background:#E6EAEC;
+            .number {
+                color: $primary-color;
+                font-size: 13px;
+                font-weight: 500;
+                margin-top: -52px;
+                z-index: 2;
+                text-align: right;
+                position: relative;
+                @include transform(translateX(14px));
+                &::after {
+                    position: absolute;
+                    right: 14px;
+                    top: 29px;
+                    height: 20px;
+                    background: #0F418F;
+                    content: "";
+                    z-index: 2;
+                    width: 4px;
+                    border-radius: 4px;
+                }
+                &__2 {
+                    &::after {
+                        background: $yellow;
+                    }
+                }
+                &__3 {
+                    &::after {
+                        background: $theme-color;
+                    }
+                }
+            }
+            .progress-bar {
+                border-radius: 3px;
+                background: #0F418F;
+                &__2 {
+                    background: $yellow;
+                }
+                &__3 {
+                    background: $theme-color;
+                }
+            }
+        }
+    }
+}

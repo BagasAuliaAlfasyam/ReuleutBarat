@@ -1,0 +1,152 @@
+/* Heder css start*/
+.header {
+    &__top {
+        background: $grey;
+        padding: 0px 105px;
+        @include respond(laptop) { 
+            padding: 0px 40px;
+        }
+        @media (max-width: 1300px) {
+            padding: 0px;
+        }
+    }
+    &__info {
+        @include d-flex;
+        @include respond(md) {
+            justify-content: center;
+            border-bottom: 1px solid #D6DADC;
+        }
+        @media (max-width: 450px) {
+            border: none;
+            flex-direction: column;
+            align-items: center;
+        }
+        li {
+            padding-left: 30px;
+            @media (max-width: 450px) {
+                padding-left: 0px;
+            }
+            a {
+                color: $primary-color;
+                font-family: $defaultfont;
+                display: block;
+                padding: 17px 0px;
+                @include transition(.3s);
+                @include respond(md) {
+                    padding: 12px 0px;
+                }
+                @media (max-width: 450px) {
+                    padding: 10px 0px;
+                }
+                i {
+                    color: $theme-color;
+                    font-size: 18px;
+                    margin-right: 5px;
+                }
+                &:hover {
+                    color: $theme-color;
+                }
+            }
+            &:not(:last-child) {
+                border-right: 1px solid #D6DADC;
+                padding-right: 30px;
+                padding-left: 0px;
+                @media (max-width: 450px) {
+                    padding-right: 0px;
+                    border: none;
+                }
+                a {
+                    @media (max-width: 450px) {
+                        padding-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+    
+    &__bottom {
+        padding: 0px 105px;
+        @include respond(laptop) { 
+            padding: 0px 40px;
+        }
+        @media (max-width: 1300px) {
+            padding: 0px;
+        }
+        @include respond(md) {
+            padding: 16.5px 0px;
+        }
+        &--2 {
+            @media (max-width: 1610px) {
+                padding: 0px 80px;
+            }
+            @media (max-width: 1610px) {
+                padding: 0px 15px;
+            }
+            @include respond(laptop) {
+                padding: 0px 0px;
+            }
+            @include respond(md) {
+                padding: 16.5px 0px;
+            }
+        }
+    }
+    .p-0 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        @include respond(md) {
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+    }
+}
+
+.header__bottom.sticky-header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background: #fff;
+	z-index: 99;
+	-webkit-box-shadow: 0px 13px 25px -12px rgba(0, 0, 0, 0.1);
+	        box-shadow: 0px 13px 25px -12px rgba(0, 0, 0, 0.1);
+}
+
+.header__bottom.animated {
+	-webkit-animation-duration: 0.3s;
+	animation-duration: 0.3s;
+}
+
+.social__links {
+    @include d-flex;
+    justify-content: flex-end;
+    @include respond(md) {
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    @media (max-width: 450px) {
+        margin-top: 0px;
+    }
+    a {
+        font-size: 15px;
+        width: 42px;
+        height: 42px;
+        background: $white;
+        color: $primary-color;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 42px;
+        box-shadow: 0px 0px 30px 0px rgba(0, 26, 100, 0.06);
+        &:not(:last-child) {
+            margin-right: 12px;
+        }
+        &:hover {
+            background: $primary-color;
+            color: $white;
+        }
+    }
+}
+
+
+
+

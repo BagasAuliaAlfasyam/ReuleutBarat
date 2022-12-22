@@ -1,0 +1,65 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: SiteName - Multipurpose Technology HTML5 Template
+    Template URI: site.com
+    Description: SiteName - Multipurpose Technology HTML5 Template
+    Author: BasicTheme
+    Author URI: site.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+	01. Theme default CSS
+
+-----------------------------------------------------------------------------------*/
+// abstracts scss
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+
+// base scss
+@import "./base/base";
+@import "./base/spacing";
+@import "./base/typography";
+@import "./base/overlay";
+
+// layout scss
+@import "./layout/header";
+@import "./layout/navigation";
+ 
+// components scss
+@import "./components/form";
+@import "./components/button";
+@import "./components/hero";
+@import "./components/feature";
+@import "./components/about";
+@import "./components/project";
+@import "./components/service";
+@import "./components/testimonial";
+@import "./components/pricing";
+@import "./components/news";
+@import "./components/cta";
+@import "./components/gta";
+@import "./components/faq";
+@import "./components/brand";
+@import "./components/video-btn";
+@import "./components/video";
+@import "./components/why-choice-us";
+@import "./components/working-process";
+@import "./components/counter";
+@import "./components/team";
+@import "./components/breadcrumb";
+@import "./components/skill";
+@import "./components/privacy";
+@import "./components/contact";
+@import "./components/service-details";
+@import "./components/project-details";
+@import "./components/team-details";
+@import "./components/blog";
+
+// pages scss
+
+// layout scss
+@import "./layout/footer"; 

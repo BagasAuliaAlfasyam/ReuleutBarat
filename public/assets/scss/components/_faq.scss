@@ -1,0 +1,166 @@
+/*faq css*/
+.faq-area {
+    overflow-x: hidden;
+    position: relative;
+    z-index: 1;
+    &::after {
+        background: $grey;
+        width: 80%;
+        height: 100%;
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+        @include respond(lg) {
+            width: 100%;
+        }
+    }
+    &__2 {
+        &::after {
+            display: none;
+        }
+    }
+}
+
+.faq-bg {
+    margin-left: 60px;
+    @include respond(lg) {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    img {
+        max-width: inherit;
+        @include respond(md) {
+            max-width: 100%;
+        }
+    }
+}
+
+.faqs {
+    .card {
+        margin-bottom: 8px;
+        border-radius: 0px;
+        border: none;
+        background: transparent;
+        border-bottom: 1px solid #E1E1E1;
+        &__header {
+            padding: 0;
+            margin-bottom: 0px;
+            border-radius: 0px;
+            border: none;
+            .btn-link {
+                padding: 25px 0px;
+                padding-right: 40px;
+                font-size: 20px;
+                font-weight: 700;
+                color: $primary-color;
+                width: 100%;
+                display: block;
+                text-align: left;
+                position: relative;
+                border-radius: 0px;
+                position: relative;
+                text-decoration: none;
+                border: none;
+                font-weight: 600;
+                font-family: $headingfont;
+                &::after {
+                    right: 0px;
+                    content: "\f067";
+                    font-family: "Font Awesome 5 Pro";
+                    text-align: center;
+                    top: 50%;
+                    @include transform(translateY(-50%));
+                    border-radius: 50%;
+                    position: absolute;
+                    font-size: 12px;
+                    width: 25px;
+                    height: 25px;
+                    background: $white;
+                    color: #707070;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+        }
+        &:last-child {
+            margin-bottom: 0;
+            border-bottom: 0px;
+        }
+        .title > button[aria-expanded="true"]::after {
+            content: "\f068";
+            background: $theme-color;
+            border-color: $theme-color;
+            color: $white;
+        }
+        &__body {
+            padding-bottom: 35px;
+            position: relative;
+            p {
+                line-height: 28px;
+                font-family: $defaultfont;
+            }
+        }
+        &:not(:first-of-type):not(:last-of-type) {
+            border-bottom: 1px solid #E1E1E1;
+        }
+        &:first-of-type {
+            border-bottom: 1px solid #E1E1E1;
+        }
+    }
+    &__2 {
+        .card {
+            margin-bottom: 20px;
+            &__header {
+                border: 1px solid #E3E4E6;
+                border-bottom: 0px;
+                .btn-link {
+                    padding: 20px 25px;
+                    font-size: 16px;
+                    &::after {
+                        content: "\f107";
+                        background: transparent;
+                        font-size: 15px;
+                        color: #6B727E;
+                        right: 25px;
+                        width: auto;
+                        height: auto;
+                    }
+                }
+                .btn-link.active {
+                    background: #0D2F64;
+                    color: $white;
+                }
+            }
+            .title > button[aria-expanded="true"] {
+                background: #0D2F64;
+                color: $white;
+                &::after {
+                    content: "\f106";
+                    background: transparent;
+                    color: $white;
+                    opacity: .70;
+                }
+            }
+            &__body {
+                padding-bottom: 25px;
+                position: relative;
+                background: #0D2F64;
+                padding-left: 25px;
+                padding-right: 25px;
+                margin-left: 1px;
+                margin-right: 1px;
+                p {
+                    line-height: 27px;
+                    font-family: $defaultfont;
+                    opacity: .70;
+                    color: $white;
+                }
+            }
+            &:last-of-type {
+                border-bottom: 1px solid #E1E1E1;
+            }
+        }
+    }
+}

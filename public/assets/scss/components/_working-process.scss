@@ -1,0 +1,54 @@
+/*Working process area*/
+.wp-box {
+    padding-right: 20px;
+    &__icon {
+        @include d-flex;
+        justify-content: center;
+        align-items: center;
+        width: 90px;
+        height: 90px;
+        border-radius: 25px;
+        background: $theme-color;
+        img {
+            @include transition(.3s);
+        }
+        &--2 {
+            background: #0F418F;
+        }
+        &--3 {
+            background: $yellow;
+        }
+        &--center {
+            margin: 0 auto;
+        }
+    }
+    &__title {
+        font-size: 22px;
+        margin-bottom: 20px;
+        @include transition(.3s);
+    }
+    &:hover {
+        .wp-box__icon {
+            img {
+                @include transform(scale(.9));
+            }
+        }
+        .wp-box__title {
+            color: $theme-color;
+        }
+    }
+    &__2 {
+        padding: 0px 5px;
+    }
+}
+
+.wp-box.reverse-col {
+    @include respond(xs) {
+        @include d-flex;
+        flex-direction:  column-reverse;
+        .mt-35 {
+            margin-top: 0px !important;
+            margin-bottom: 35px;
+        }
+    }
+}

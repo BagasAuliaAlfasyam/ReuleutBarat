@@ -1,0 +1,128 @@
+/*project css*/
+
+.project-area {
+    padding-left: 105px;
+    padding-right: 105px;
+    @include respond(laptop) { 
+        padding: 0px 40px;
+    }
+    @media (max-width: 1300px) {
+        padding: 0px;
+    }
+    .project-row {
+        @include respond(lg) {
+            flex-direction: column-reverse;
+        }
+    }
+    &__2 {
+        @media (max-width: 1610px) { 
+            padding: 0px 80px;
+            padding-top: 125px;
+        }
+        @media (max-width: 1560px) { 
+            padding: 0px 30px;
+            padding-top: 125px;
+        }
+        @include respond(laptop) {
+            padding: 0px 0px;
+            padding-top: 125px;
+        }
+        @include respond(md) {
+            padding: 0px 0px;
+            padding-top: 125px;
+        }
+    }
+}
+
+.project-item {
+    position: relative;
+    width: 100%;
+    &__thumb {
+        img {
+            width: 100%;
+        }
+        &--big {
+            height: 100%;
+            img {
+                object-fit: cover;
+                height: 100%;
+            }
+        }
+    }
+    &__hover {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        &::before {
+            opacity: 0;
+            visibility: hidden;
+            @include transition(.3s);
+        } 
+    }
+    &__content {
+        position: absolute;
+        bottom: 35px;
+        left: 50px;
+        opacity: 0;
+        visibility: hidden;
+        @include transition(.3s);
+    }
+    &__subtitle {
+        font-size: 16px;
+        font-family: $defaultfont;
+        color: $theme-color;
+        margin-bottom: 7px;
+        span {
+            color: $theme-color;
+        }
+    }
+    &__title {
+        color: $white;
+        font-size: 30px;
+    }
+    &__link {
+        width: 75px;
+        height: 75px;
+        background: $white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        @include transform(translate(-50%, -40%));
+        @include transition(.5s);
+        border-radius: 50%;
+        opacity: 0;
+        visibility: hidden;
+        font-size: 20px;
+        color: $theme-color;
+        .onhover {
+            display: none;
+        }
+        &:hover {
+            background: $theme-color;
+            color: $white;
+        }
+    }
+    &:hover {
+        .project-item__hover {
+            &::before {
+                opacity: .9;
+                visibility: visible;
+            }
+        }
+        .project-item__content {
+            opacity: 1;
+            visibility: visible;
+            bottom: 45px;
+        }
+        .project-item__link {
+            @include transform(translate(-50%, -50%));
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}

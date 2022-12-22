@@ -1,0 +1,149 @@
+/*about css*/
+.about-area {
+    .pr-0 {
+        @include respond(lg) {
+            padding-right: 15px !important;
+        }
+    }
+    .pl-80 {
+        @include respond(lg) {
+            padding-left: 15px !important;
+        }
+    }
+    @include respond(xs) {
+        overflow: hidden;
+    }
+}
+.about__bg {
+    @include respond(lg) {
+        margin-bottom: 80px;
+    }
+    &--2 {
+        position: relative;
+        @include respond(lg) {
+            margin-bottom: 150px;
+        }
+        .big-thumb {
+            position: relative;
+            z-index: 1;
+            img {
+                width: 100%;
+            }
+        }
+        .mid-thumb {
+            left: -100px;
+            bottom: -55px;
+            z-index: 2;
+        }
+        .small-thumb {
+            right: -30px;
+            top: -70px;
+            z-index: 2;
+        }
+        .circle-shape {
+            top: 55px;
+            left: -115px;
+        }
+        .patternt-shape {
+            right: -30px;
+            bottom: -30px;
+        }
+    }
+    &--3 {
+        img {
+            max-width: inherit;
+            @include transform(translateX(-100px));
+            @include respond(lg) {
+                @include transform(translateX(0px));
+            }
+            @include respond(md) {
+                @include transform(translateX(0px));
+            }
+            @include respond(xs) {
+                max-width: 100%;
+            }
+        }
+    }
+}
+.about-lists {
+    ul {
+        li {
+            @include d-flex;
+            align-items: center;
+            @include respond(xs) {
+                display: inline-block;
+            }
+            i {
+                margin-right: 15px;
+                color: $theme-color;
+            }
+            &:not(:last-child) {
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+
+.ab__box {
+    &--head {
+        @include d-flex;
+        align-items: center;
+        margin-bottom: 20px;
+        .icon {
+            @include d-flex;
+            @include flexWidth(70px);
+            align-items: center;
+            justify-content: center;
+            min-height: 70px;
+            background-color: $yellow;
+            border-radius: 50%;
+            &__2 {
+                background-color: $theme-color;
+            }
+        }
+        .title {
+            padding-left: 20px;
+            font-size: 22px;
+            line-height: 32px;
+        }
+    }
+    p {
+        line-height: 27px;
+    }
+}
+
+.author__box {
+    @include d-flex;
+    align-items: center;
+    &--thumb {
+        img {
+            border-radius: 50%;
+        }
+        @include flexWidth(70px);
+    }
+    &--text {
+        padding-left: 20px;
+        .name {
+            font-size: 22px;
+        }
+        .designation {
+            color: #6B727E;
+        } 
+    }
+}
+
+.ab-author-signature {
+    @include d-flex;
+    align-items: center;
+    @media (max-width: 450px) {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .signature {
+        margin-left: 40px;
+        @media (max-width: 450px) {
+            margin-left: 0px;
+            margin-top: 30px;
+        }
+    }
+}

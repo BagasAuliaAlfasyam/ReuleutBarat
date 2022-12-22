@@ -1,0 +1,35 @@
+/*pricacy css*/
+.privacy {
+    &__highlight {
+        font-weight: 600;
+        line-height: 27px;
+        font-family: $headingfont;
+        p {
+            color: $primary-color;
+        }
+    }
+    &__heading {
+        font-size: 22px;
+    }
+    &__lists {
+        li {
+            font-family: $defaultfont;
+            line-height: 27px;
+            position: relative;
+            padding-left: 20px;
+            &::after {
+                width: 9px;
+                height: 9px;
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 7px;
+                background: #F7968A;
+                border-radius: 50%;
+            }
+            &:not(:last-child) {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

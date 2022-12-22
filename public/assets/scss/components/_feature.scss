@@ -1,0 +1,123 @@
+/* feature css */
+.feature-area {
+    position: relative;
+    z-index: 1;
+    &::after {
+        background: $grey;
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        min-height: 450px;
+        z-index: -1;
+    }
+    &__2 {
+        padding-bottom: 300px;
+        &::after {
+            display: none;
+        }
+    }
+    &__3 {
+        &::after {
+            display: none;
+        }
+    }
+}
+.feature-item {
+    padding: 40px 32px;
+    box-shadow: 0px 10px 30px 0px rgba(2, 24, 95, 0.06);
+    text-align: center;
+    background: $white;
+    border-radius: 5px;
+    &__icon {
+        width: 90px;
+        min-height: 90px;
+        border-radius: 25px;
+        img {
+            @include transition(.3s);
+        }
+        @include d-flex;
+        align-content: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        &--1 {
+            background: $green;
+        }
+        &--2 {
+            background: $yellow;
+        }
+        &--3 {
+            background: $blue;
+        }
+        &--4 {
+            background: $theme-color;
+        }
+        &--round {
+            margin: 0;
+            margin-bottom: 32px;
+            position: relative;
+            z-index: 1;
+            align-items: center;
+            background-size: contain;
+            @include transform(translateX(-5px));
+            img {
+                margin-left: 60px;
+            }
+        }
+    }
+    &__content {
+        p {
+            line-height: 27px;
+        }
+        &--2 {
+            text-align: left;
+            .inline-btn {
+                margin-top: 25px;
+                display: inline-block;
+                color: $primary-color;
+                &:hover {
+                    color: $theme-color;
+                }
+            }
+        }
+    }
+    .inline-btn {
+        .icon {
+            color: $primary-color;
+        }
+        &:hover {
+            .icon {
+                color: $theme-color;
+            }
+        }
+    }
+    &__title {
+        font-size: 22px;
+        margin-bottom: 20px;
+        @include transition(.3s);
+        &--2 {
+            margin-bottom: 15px;
+        }
+    }
+    &:hover {
+        .feature-item__icon {
+            img {
+                @include transform(scale(.8));
+            }
+        }
+        .feature-item__title {
+            color: $theme-color;
+        }
+    }
+    &__2 {
+        box-shadow: 0px 0px 20px 0px rgba(0, 15, 105, 0.06);
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    &__3 {
+        background: $grey;
+        box-shadow: none;
+    }
+}

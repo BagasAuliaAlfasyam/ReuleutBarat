@@ -1,0 +1,81 @@
+/* form css start */
+label {
+	font-size: fsize("14px");
+}
+
+input:not([type="radio"]),
+textarea {
+	padding: 10px 20px;
+	@include border-radius(5px);
+	background-color: transparent;
+	font-size: fsize("14px") !important;
+	@include placeholder(#c9c9c9 !important);
+}
+
+select {
+	padding: 8px 10px;
+	cursor: pointer;
+	color: $primary-color;
+	background-color: transparent;
+	@include border-radius(0);
+}
+
+textarea {
+	min-height: 100px;
+	width: 100%;
+	&.resize--none {
+		resize: none;
+	}
+}
+
+input[type="radio"],
+input[type="range"],
+input[type="checkbox"] {
+	height: auto !important;
+	padding: 0;
+}
+
+input {
+	&.form-control {
+		height: 38px;
+	}
+	&.form-control-xl {
+		height: calc(2rem + 1rem + 2px);
+		font-size: fsize("18px") !important;
+	}
+	&.form-control-lg {
+		height: calc(1.8rem + 1rem + 2px);
+		font-size: fsize("16px") !important;
+	}
+	&.form-control-sm {
+		height: calc(1rem + 1rem + 2px);
+		font-size: fsize("13px") !important;
+	}
+}
+
+.label--text {
+	font-size: fsize("14px");
+	margin-bottom: 0.5rem;
+}
+
+// select 2 form
+.select2-container {
+	width: 100% !important;
+	.select2-selection--single {
+		height: 34px;
+	}
+}
+
+.select2-container--default
+	.select2-selection--single
+	.select2-selection__rendered {
+	line-height: 34px;
+}
+
+.select2-container--default
+	.select2-selection--single
+	.select2-selection__arrow {
+	height: 34px;
+}
+
+/* form css end */

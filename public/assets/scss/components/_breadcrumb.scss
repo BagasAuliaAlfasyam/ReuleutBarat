@@ -1,0 +1,79 @@
+/*breadcrumb css*/
+.breadcrumb-section  {
+    position: relative;
+    background-size: auto;
+    z-index: 1;
+    background-position: center right;
+    &::after {
+        position: absolute;
+        left: 0;
+        top: 0;
+        content: "";
+        height: 100%;
+        background-image: url(../images/shape/breadcrumb-shape.png);
+        z-index: -1;
+        width: 35%;
+        background-repeat: no-repeat;
+        z-index: 1;
+        @include respond(xs) {
+            display: none;
+        }
+        @include respond(sm) {
+            display: block;
+        }
+    }
+    .pr-0 {
+        @include respond(xs) {
+            padding-right: 15px !important;
+        }
+        @include respond(sm) {
+            padding-right: 0px !important;
+        }
+    }
+}
+.breadcrumb-text {
+    text-align: right;
+    position: relative;
+    z-index: 2;
+    &__title {
+        font-size: 80px;
+        color: $white;
+        font-weight: 800;
+        text-transform: uppercase;
+        @include respond(md) {
+            font-size: 55px;
+        }
+        @include respond(xs) {
+            font-size: 36px;
+        }
+        @include respond(ms) {
+            font-size: 55px;
+        }
+    }
+    &__nav {
+        @include d-flex;
+        justify-content: flex-end;
+        margin-top: 2px;
+        li {
+            font-size: 22px;
+            font-family: $headingfont;
+            color: $white;
+            text-transform: uppercase;
+            font-weight: 700;
+            @include respond(xs) {
+                font-size: 16px;
+            }
+            @include respond(ms) {
+                font-size: 18px;
+            }
+            a {
+                color: $white;
+                text-transform: uppercase;
+                font-weight: 700;
+            }
+            &:not(:last-child) {
+                margin-right: 8px;
+            }
+        }
+    }
+}

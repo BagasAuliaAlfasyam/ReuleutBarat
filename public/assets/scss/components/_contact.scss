@@ -1,0 +1,52 @@
+/*contact page css*/
+.contact-map-area {
+    #contact-map {
+        min-height: 700px;
+        border-radius: 0px;
+        width: 100%;
+        @include respond(lg) {
+            margin-bottom: 0px;
+        }
+        @include respond(md) {
+            margin-bottom: 0px;
+        }
+        @include respond(xs) {
+            min-height: 500px;
+        }
+        @include respond(sm) {
+            min-height: 700px;
+        }
+    }
+}
+
+.contact-info {
+    background: $grey;
+    padding: 35px 40px;
+    @include transition(.3s);
+    &__title {
+        font-size: 22px;
+        margin-bottom: 15px;
+        @include transition(.3s);
+    }
+    p {
+        color: #6B727E;
+        @include transition(.3s);
+    }
+    a {
+        color: #6B727E;
+        display: inline-block;
+        margin-top: 5px;
+    }
+    &:hover {
+        background: $theme-color;
+        .contact-info__title {
+            color: $white;
+        }
+        p {
+            color: $white;
+        }
+        a {
+            color: $white;
+        }
+    }
+}

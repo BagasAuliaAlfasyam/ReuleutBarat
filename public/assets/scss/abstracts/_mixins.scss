@@ -1,0 +1,180 @@
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+@mixin border-radius($property) {
+  border-radius: $property;
+  -webkit-border-radius: $property;
+  -moz-border-radius: $property;
+  -ms-border-radius: $property;
+  -o-border-radius: $property;
+}
+
+@mixin transition($property) {
+  -webkit-transition: $property;
+  -o-transition: $property;
+  transition: $property;
+}
+
+@mixin flexWidth($property) {
+  flex: 0 0 $property;
+  -ms-flex: 0 0 $property;
+  max-width: $property;
+}
+
+@mixin d-flex {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@mixin shadow1 {
+  box-shadow: 0px -5px 26px -5px #cdd4e7;
+}
+@mixin placeholder($value) {
+  &::-webkit-input-placeholder {
+    color: $value;
+    opacity: 1;
+  }
+  &::-moz-placeholder {
+    color: $value;
+    opacity: 1;
+  }
+  &:-ms-input-placeholder {
+    color: $value;
+    opacity: 1;
+  }
+  &:-moz-placeholder {
+    color: $value;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes zoom {
+	0% {
+		@include transform(scale(1));
+	}
+	50% {
+		@include transform(scale(1.05));
+	}
+	100% {
+		@include transform(scale(1.10));
+	}
+}
+@keyframes zoom {
+	0% {
+		@include transform(scale(1.10));
+	}
+	50% {
+		@include transform(scale(1.05));
+	}
+	100% {
+		@include transform(scale(1));
+	}
+}
+
+@-webkit-keyframes shake {
+	0% {
+		@include transform(rotate(7deg));
+	}
+	50% {
+		@include transform(rotate(0deg));
+	}
+	100% {
+		@include transform(rotate(7deg));
+	}
+}
+@keyframes shake {
+	0% {
+		@include transform(rotate(7deg));
+	}
+	50% {
+		@include transform(rotate(0deg));
+	}
+	100% {
+		@include transform(rotate(7deg));
+	}
+}
+
+@-webkit-keyframes down {
+	0% {
+		@include transform(translateY(5px));
+	}
+	50% {
+		@include transform(translateY(0px));
+	}
+	100% {
+		@include transform(translateY(5px));
+	}
+}
+@keyframes down {
+	0% {
+		@include transform(translateY(5px));
+	}
+	50% {
+		@include transform(translateY(0px));
+	}
+	100% {
+		@include transform(translateY(5px));
+	}
+}
+
+@keyframes rotate {
+		from {
+        @include transform(rotate(0deg));
+		}
+		to {
+				@include transform(rotate(359deg));
+		}
+}
+
+@keyframes sliderShape{
+  0%,100%{
+  border-radius: 60% 78% 90% 40% / 55% 65% 75% 85%;
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  34%{
+      border-radius: 70% 60% 56% 64% / 30% 49% 71% 70%;
+      transform:  translate3d(0,5px,0) rotateZ(0.01deg);
+  }
+  50%{
+    transform: translate3d(0,0,0) rotateZ(0.01deg);
+  }
+  67%{
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60% ;
+    transform: translate3d(0,-3px,0) rotateZ(0.01deg);
+  }
+}
+
+@mixin respond($breakpoint) {
+    @if $breakpoint==laptop {
+        @media only screen and (min-width: 1200px) and (max-width: 1500px) {
+            @content;
+        }
+    }
+    @if $breakpoint==lg {
+        @media (max-width: 1199px) {
+            @content;
+        }
+    }
+    @if $breakpoint==md {
+        @media (max-width: 991px) {
+            @content;
+        }
+    }
+    @if $breakpoint==xs {
+        @media (max-width: 767px) {
+            @content;
+        }
+    }
+    @if $breakpoint==sm {
+        @media only screen and (min-width: 576px) and (max-width: 767px) {
+            @content;
+        }
+    }
+}
+
+

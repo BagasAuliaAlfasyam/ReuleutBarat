@@ -1,0 +1,162 @@
+/*Footer css*/
+.footer {
+    background: #171718;
+    &__logo {
+        margin-top: 7px;
+        display: inline-block;
+    }
+    &__bottom {
+        border-top: 1px solid #2E2E2F;
+        padding: 22.5px 0;
+        &--2 {
+            border-color: #252D39;
+        }
+    }
+    .copyright-text {
+        @include respond(md) {
+            text-align: center;
+        }
+        p {
+            color: #999999;
+        }
+        a {
+            color: $theme-color;
+        }
+    }
+    .social__links {
+        @include respond(md) {
+            justify-content: center;
+            margin-top: 20px;
+        }
+        a {
+            background: #333334;
+            color: $white;
+            &:hover {
+                background-color: $theme-color;
+                color: $white;
+            }
+        }
+        &--2 {
+            a {
+                background: #3D444F;
+            }
+        }
+    }
+    .pl-70, .pl-45 {
+        @include respond(md) {
+            padding-left: 15px;
+        }
+    }
+    .pr-0{
+        @include respond(md) {
+            padding-right: 15px;
+        }
+    }
+    &__2 {
+        background: #0C1523;
+    }
+}
+
+.footer-widget {
+    .widget-title {
+        font-size: 22px;
+        position: relative;
+        color: $white;
+        display: inline-block;
+        margin-bottom: 45px;
+        &::after {
+            position: absolute;
+            left: 0;
+            content: "";
+            width: 60px;
+            height: 2px;
+            background: $theme-color;
+            bottom: -10px;
+        }
+    }
+    ul {
+        li {
+            &:not(:last-child) {
+                margin-bottom: 10px;
+            }
+            a {
+                color: #7d7d7d;
+                display: block;
+                i {
+                    padding-right: 5px;
+                }
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+    }
+    .recent-news {
+        &__title {
+            color: #999999;
+            display: block;
+            line-height: 27px;
+            &:hover {
+                color: $white;
+            }
+        }
+        &__date {
+            font-size: 15px;
+            margin-top: 10px;
+            color: #999999;
+            display: inline-block;
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+    .newslater {
+        background: $white;
+        padding: 40px;
+        border-radius: 5px;
+        &__title {
+            font-size: 22px;
+            color: $primary-color;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+        &__form {
+            position: relative;
+            input {
+                background: $theme-color;
+                border: none;
+                width: 100%;
+                padding: 22px 20px;
+                border-radius: 3px;
+                color: $white;
+                @include placeholder($white !important);
+            }
+            button {
+                position: absolute;
+                right: 20px;
+                top: 50%;
+                font-size: 15px;
+                background: transparent;
+                color: $white;
+                @include transform(translateY(-50%));
+            }
+        }
+    }
+    &__2 {
+        ul {
+            li {
+                a {
+                    color: #A4A6A9;
+                }
+            }
+        }
+        .recent-news {
+            &__title {
+                color: #A4A6A9;
+            }
+            &__date {
+                color: #A4A6A9;
+            }
+        }
+    }
+}

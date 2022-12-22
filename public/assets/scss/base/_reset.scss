@@ -1,0 +1,69 @@
+/* reset css start */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $defaultfont;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  position: relative;
+  line-height: 26px;
+  color: #6B727E;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+*:focus {
+  outline: none;
+}
+
+button {
+  border: none;
+  @include transition(.3s);
+}
+
+button:focus {
+  outline: none;
+}
+
+a {
+  @include transition(.3s);
+  &:hover {
+    text-decoration: none;
+    color: $primary-color;
+  }
+}
+
+span {
+  display: inline-block
+}
+
+table {
+  width: 100%;
+}
+
+p, li, span {
+  color: #6B727E;
+  margin-bottom: 0;
+}
+
+/* reset css end */

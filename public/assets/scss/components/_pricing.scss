@@ -1,0 +1,127 @@
+/*pricing css*/
+
+.pricing-area {
+    position: relative;
+    z-index: 1;
+    &__2 {
+        &::after {
+            background: $grey;
+            height: 553px;
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            z-index: -1;
+        }
+    }
+}
+
+.pricing-item {
+    text-align: center;
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 10px;
+    z-index: 1;
+    &::after {
+        border: 1px solid #ddd;
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: calc(100% - 20px);
+        height: calc(100% - 20px);
+        @include transform(translate(-50%, -50%));
+        z-index: -1;
+    }
+    &__head {
+        padding: 30px 0px;
+        padding-top: 25px;
+        margin-left: 2px;
+        margin-top: 2px;
+        margin-right: 2px;
+        padding-top: 28px;
+        .heading-title {
+            font-size: 36px;
+        }
+        .sub-heading-title {
+            font-size: 16px;
+            font-weight: 400;
+            color: #6B727E;
+            font-family: $defaultfont;
+            margin-top: 5px;
+        }
+        &--2 {
+            background: $grey;
+        }
+    }
+    &__price {
+        padding: 17px 0px;
+        background: $grey;
+        position: relative;
+        @include transition(.3s);
+        h2 {
+            font-size: 40px;
+            @include transition(.3s);
+        }
+        &--1 {
+            background: #0F418F;
+        }
+        &--2 {
+            background: $theme-color;
+        }
+        &--3 {
+            background: $yellow;
+        }
+        &--white {
+            h2 {
+                color: $white;
+            }
+        }
+    }
+    &__lists {
+        padding: 45px 0px;
+        background: $white;
+        margin-left: 2px;
+        margin-right: 2px;
+        li {
+            &:not(:last-child) {
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .price-btn {
+        margin-bottom: 35px;
+        background-color: $grey;
+        border: 1px solid #E3E4E6;
+        color: $primary-color;
+        display: inline-block;
+        padding: 16px 31px;
+        border-radius: 40px;
+        @include transition(.3s);
+        font-size: 13px;
+        font-weight: 700;
+        font-family: $headingfont;
+        text-transform: uppercase;
+        .icon {
+            margin-right: 5px;
+            color: $theme-color;
+        }
+    }
+    &:hover {
+        .pricing-item__price {
+            background: $theme-color;
+            h2 {
+                color: $white;
+            }
+        }
+        .price-btn {
+            background: $theme-color;
+            color: $white;
+            border-color: $theme-color;
+            .icon {
+                color: $white;
+            }
+        }
+    }
+}
