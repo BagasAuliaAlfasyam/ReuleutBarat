@@ -101,7 +101,6 @@
         </div>
     </section>
     <!-- gta section end -->
-
     <!-- map area start -->
     <div class="contact-map-area">
         <div id="contact-map"></div>

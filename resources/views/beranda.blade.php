@@ -52,57 +52,26 @@
                 </div>
                 <div class="col-xl-6">
                     <div class="section-header section-header__2 mb-40">
-                        <h4 class="sub-heading sub-heading__2 mb-10">About Us <span><img
+                        <h4 class="sub-heading sub-heading__2 mb-10">Kilasan Tentang<span><img
                                     src="assets/images/shape/heading-shape-4.png" class="ml-10" alt=""></span></h4>
-                        <h2 class="section-title section-title__2 mb-30">From Structure
-                            to Conveyance</h2>
+                        <h2 class="section-title section-title__2 mb-30">Reuleut Barat</h2>
                         <p>Libero aliquam eiget rhoncus elit quis mattis tos neque ullco qua praesent interdum orce
                             torristique aenean at dictumst
                             velit fames molestie tristique magna sociosqu iner rhoncuis in cubilia here are some best
                             and catchy dolor for printing
+                            company Libero aliquam eiget rhoncus elit quis mattis tos neque ullco qua praesent interdum orce
+                            torristique aenean at dictumst
+                            velit fames molestie tristique magna sociosqu iner rhoncuis in cubilia here are some best
+                            and catchy dolor for printing
+                            company Libero aliquam eiget rhoncus elit quis mattis tos neque ullco qua praesent interdum orce
+                            torristique aenean at dictumst
+                            velit fames molestie tristique magna sociosqu iner rhoncuis in cubilia here are some best
+                            and catchy dolor for printing
+                            company Libero aliquam eiget rhoncus elit quis mattis tos neque ullco qua praesent interdum orce
+                            torristique aenean at dictumst
+                            velit fames molestie tristique magna sociosqu iner rhoncuis in cubilia here are some best
+                            and catchy dolor for printing
                             company</p>
-                    </div>
-                    <div class="row mt-none-40">
-                        <div class="col-xl-6 mt-40">
-                            <div class="ab__box">
-                                <div class="ab__box--head">
-                                    <div class="icon">
-                                        <img src="assets/images/icons/ab-1.png" alt="">
-                                    </div>
-                                    <h4 class="title">Get the <br>
-                                        Most Definitely</h4>
-                                </div>
-                                <p>Pulvinar primis to velit dolo sociise aptent varius acuise maner platea dames pura
-                                    suspen</p>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 mt-40">
-                            <div class="ab__box">
-                                <div class="ab__box--head">
-                                    <div class="icon icon__2">
-                                        <img src="assets/images/icons/ab-2.png" alt="">
-                                    </div>
-                                    <h4 class="title">Fast and <br>
-                                        quality service</h4>
-                                </div>
-                                <p>Pulvinar primis to velit dolo sociise aptent varius acuise maner platea dames pura
-                                    suspen</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="ab-author-signature mt-55">
-                        <div class="author__box">
-                            <div class="author__box--thumb">
-                                <img src="assets/images/other/author-2.png" alt="">
-                            </div>
-                            <div class="author__box--text">
-                                <h4 class="name">Martyn Alex</h4>
-                                <span class="designation">CEO of pixen</span>
-                            </div>
-                        </div>
-                        <div class="signature">
-                            <img src="assets/images/shape/signature.png" alt="">
-                        </div>
                     </div>
                 </div>
             </div>
@@ -118,10 +87,10 @@
                     <div class="section-header mb-70">
                         <h4 class="sub-heading sub-heading__2 mb-15">
                             <span><img src="assets/images/shape/heading-shape-3.png" class="mr-5" alt=""></span>
-                            core feature
+                            Berikut
                             <span><img src="assets/images/shape/heading-shape-4.png" class="ml-5" alt=""></span>
                         </h4>
-                        <h2 class="section-title section-title__2">Future printing</h2>
+                        <h2 class="section-title section-title__2">UMKM REULEUT BARAT</h2>
                     </div>
                 </div>
             </div>
@@ -178,186 +147,6 @@
         </div>
     </section>
     <!-- feature section end -->
-
-    <!-- service section start -->
-    <section class="service-area pt-125 pb-125">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-8 text-center">
-                    <div class="section-header mb-65">
-                        <h4 class="sub-heading sub-heading__2 mb-15">
-                            <span><img src="assets/images/shape/heading-shape-3.png" class="mr-5"
-                                    alt=""></span>
-                            main services
-                            <span><img src="assets/images/shape/heading-shape-4.png" class="ml-5"
-                                    alt=""></span>
-                        </h4>
-                        <h2 class="section-title section-title__2">quality printing</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-4 mt-none-30">
-                    <div class="row">
-                        <div class="col-xl-12 col-lg-6">
-                            <div class="service-box service-box__1 mt-30">
-                                <h4 class="service-box__title">Business Card</h4>
-                                <p>Fish fish may beast days the spirit also very the can which trees</p>
-                                <a href="service-details.html" class="inline-btn">
-                                    <span class="icon"><i class="far fa-arrow-right"></i></span>
-                                    Read More</a>
-                                <span class="shape"><img src="assets/images/shape/service-shape-1.png"
-                                        alt=""></span>
-                            </div>
-                        </div>
-                        <div class="col-xl-12 col-lg-6">
-                            <div class="service-box service-box__2 mt-30">
-                                <h4 class="service-box__title">Business Card</h4>
-                                <p>Fish fish may beast days the spirit also very the can which trees</p>
-                                <a href="service-details.html" class="inline-btn">
-                                    <span class="icon"><i class="far fa-arrow-right"></i></span>
-                                    Read More</a>
-                                <span class="shape"><img src="assets/images/shape/service-shape-2.png"
-                                        alt=""></span>
-                            </div>
-                        </div>
-                        <div class="col-xl-12 col-lg-6">
-                            <div class="service-box service-box__3 mt-30">
-                                <h4 class="service-box__title">Business Card</h4>
-                                <p>Fish fish may beast days the spirit also very the can which trees</p>
-                                <a href="service-details.html" class="inline-btn">
-                                    <span class="icon"><i class="far fa-arrow-right"></i></span>
-                                    Read More</a>
-                                <span class="shape"><img src="assets/images/shape/service-shape-3.png"
-                                        alt=""></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-8 ">
-                    <div class="service__bg d-flex align-self-stretch">
-                        <img src="assets/images/bg/service-bg-1.jpeg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- service section end -->
-
-    <!-- wcu area start -->
-    <section class="wcu-area pt-125 pb-125 blue-bg">
-        <div class="container">
-            <div class="row justify-content-end">
-                <div class="col-xl-6">
-                    <div class="section-header section-header__white section-header__wcu mb-50">
-                        <h4 class="sub-heading sub-heading__2 sub-heading__red mb-15">
-                            why choose us
-                            <span><img src="assets/images/shape/heading-shape-4.png" class="ml-5"
-                                    alt=""></span>
-                        </h4>
-                        <h2 class="section-title section-title__2 section-title__white mb-30">Print mindfully
-                            Green Printing</h2>
-                        <p>Libero aliquam eiget rhoncus elit quis mattis tos neque ullco qua prae sent interdum orce
-                            torristique aenean at dictumst
-                            velit fames molestie tristique mage sociosqu rhoncu cubilia</p>
-                    </div>
-                    <div class="wcu-box__wrapper">
-                        <div class="wcu-box">
-                            <div class="wcu-box__icon">
-                                <img src="assets/images/icons/w-c-1.png" alt="">
-                            </div>
-                            <div class="wcu-box__content">
-                                <h4 class="wcu-box__title">Satisfied Service</h4>
-                                <p>Pulvinar primis to velit dolo sociise apten acuise maner platea one more dames pura
-                                    tole suspen</p>
-                            </div>
-                        </div>
-                        <div class="wcu-box mt-40">
-                            <div class="wcu-box__icon">
-                                <img src="assets/images/icons/w-c-2.png" alt="">
-                            </div>
-                            <div class="wcu-box__content">
-                                <h4 class="wcu-box__title">Free Consultancy</h4>
-                                <p>Pulvinar primis to velit dolo sociise apten acuise maner platea one more dames pura
-                                    tole suspen</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="wcu-shape">
-            <img src="assets/images/shape/wchu-shape-1.png" alt="">
-        </div>
-    </section>
-    <!-- wcu area end -->
-
-    <!-- working-process area start -->
-    <section class="wp-area pt-125 pb-125">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-8 text-center">
-                    <div class="section-header mb-65">
-                        <h4 class="sub-heading mb-15">
-                            <span><img src="assets/images/shape/heading-shape-3.png" class="mr-5"
-                                    alt=""></span>
-                            working process
-                            <span><img src="assets/images/shape/heading-shape-4.png" class="ml-5"
-                                    alt=""></span>
-                        </h4>
-                        <h2 class="section-title section-title__2">How it works</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-none-40">
-                <div class="col-xl-3 col-lg-6 col-md-6 mt-40">
-                    <div class="wp-box">
-                        <div class="wp-box__icon wp-box__icon--1 mb-35">
-                            <img src="assets/images/icons/w-p-1.png" alt="">
-                        </div>
-                        <div class="wp-box__content">
-                            <h4 class="wp-box__title">Booking Online</h4>
-                            <p>God They moving an firmament seed over herb gathering multis ply morning fruitful</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 mt-40">
-                    <div class="wp-box reverse-col">
-                        <div class="wp-box__content">
-                            <h4 class="wp-box__title">Received Work</h4>
-                            <p>God They moving an firmament seed over herb gathering multis ply morning fruitful</p>
-                        </div>
-                        <div class="wp-box__icon wp-box__icon--2 mt-35">
-                            <img src="assets/images/icons/w-p-2.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 mt-40">
-                    <div class="wp-box">
-                        <div class="wp-box__icon wp-box__icon--3 mb-35">
-                            <img src="assets/images/icons/w-p-3.png" alt="">
-                        </div>
-                        <div class="wp-box__content">
-                            <h4 class="wp-box__title">Satisfied Design</h4>
-                            <p>God They moving an firmament seed over herb gathering multis ply morning fruitful</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6 col-md-6 mt-40">
-                    <div class="wp-box reverse-col">
-                        <div class="wp-box__content">
-                            <h4 class="wp-box__title">Start Printing</h4>
-                            <p>God They moving an firmament seed over herb gathering multis ply morning fruitful</p>
-                        </div>
-                        <div class="wp-box__icon mt-35">
-                            <img src="assets/images/icons/w-p-4.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- working-process area end -->
 
     <!-- testimonial area start -->
     <div class="testimonial-area testimonial-area__2 pt-130 pb-130 grey-bg">
@@ -459,6 +248,29 @@
     </div>
     <!-- counter section end -->
 
+    <!-- gta section start -->
+    <section class="gta-area pt-125 pb-120">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 my-auto">
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16358.35010891766!2d96.97459699878243!3d5.236757048305279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3047711b0516430f%3A0x322ae83aae7912d7!2sWest%20Reuleut%2C%20Muara%20Batu%2C%20North%20Aceh%20Regency%2C%20Aceh!5e0!3m2!1sen!2sid!4v1671728407688!5m2!1sen!2sid"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-xl-6 pl-70">
+                    <div class="section-header mb-50">
+                        <h4 class="sub-heading mb-15">Reuleut Barat</h4>
+                        <h2 class="section-title">Denah Desa</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gta section end -->
+
     <!-- project section start -->
     <div class="project-area project-area__2 pt-125">
         <div class="container">
@@ -483,14 +295,6 @@
                         <div class="project-item__thumb project-item__thumb--big">
                             <img src="assets/images/project/p-6.jpeg" alt="">
                         </div>
-                        <div class="project-item__hover" data-overlay="dark" data-opacity="9">
-                            <a href="project-details.html" class="project-item__link"><i
-                                    class="far fa-arrow-right"></i></a>
-                            <div class="project-item__content">
-                                <h5 class="project-item__subtitle"><span>//</span> Book Print</h5>
-                                <h4 class="project-item__title">Megazine Cover</h4>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div class="col-xl-7 mt-30">
@@ -500,14 +304,6 @@
                                 <div class="project-item__thumb">
                                     <img src="assets/images/project/p-7.jpeg" alt="">
                                 </div>
-                                <div class="project-item__hover" data-overlay="dark" data-opacity="9">
-                                    <a href="project-details.html" class="project-item__link"><i
-                                            class="far fa-arrow-right"></i></a>
-                                    <div class="project-item__content">
-                                        <h5 class="project-item__subtitle"><span>//</span> Book Print</h5>
-                                        <h4 class="project-item__title">Megazine Cover</h4>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <div class="col-xl-6 col-md-6 col-lg-6 mt-30">
@@ -515,28 +311,12 @@
                                 <div class="project-item__thumb">
                                     <img src="assets/images/project/p-8.jpeg" alt="">
                                 </div>
-                                <div class="project-item__hover" data-overlay="dark" data-opacity="9">
-                                    <a href="project-details.html" class="project-item__link"><i
-                                            class="far fa-arrow-right"></i></a>
-                                    <div class="project-item__content">
-                                        <h5 class="project-item__subtitle"><span>//</span> Book Print</h5>
-                                        <h4 class="project-item__title">Megazine Cover</h4>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <div class="col-xl-12 col-md-6 col-lg-12 col-md-12 mt-30">
                             <div class="project-item">
                                 <div class="project-item__thumb">
                                     <img src="assets/images/project/p-9.jpeg" alt="">
-                                </div>
-                                <div class="project-item__hover" data-overlay="dark" data-opacity="9">
-                                    <a href="project-details.html" class="project-item__link"><i
-                                            class="far fa-arrow-right"></i></a>
-                                    <div class="project-item__content">
-                                        <h5 class="project-item__subtitle"><span>//</span> Book Print</h5>
-                                        <h4 class="project-item__title">Megazine Cover</h4>
-                                    </div>
                                 </div>
                             </div>
                         </div>

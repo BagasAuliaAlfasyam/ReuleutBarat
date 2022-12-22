@@ -27,18 +27,10 @@
     <div class="details-content-area pt-125 pb-125">
         <div class="container">
             <div class="row">
-                <div class="col-xl-8">
+                <div class="col-xl-12">
                     <div class="project-thumb d-flex align-self-stretch">
                         <img src="assets/images/bg/project-details-bg-1.jpeg" alt="">
                     </div>
-                </div>
-                <div class="col-xl-4">
-                    <ul class="project-details blue-bg">
-                        <li>Project Name<span>Brochure design</span></li>
-                        <li>Client Name<span>Rechard Bannerd</span></li>
-                        <li>Feedback<span>Happy Client</span></li>
-                        <li>Project Date<span>29 Nov 2020</span></li>
-                    </ul>
                 </div>
             </div>
             <div class="row mt-40">
@@ -75,57 +67,6 @@
                                 Sollicitudin etiam elit torquent. Purus nascetur dis augue non iaculis ullamcorper lacus
                                 met quam commodo hendrerit
                                 lobortis vel. Sagittis felis iaculis mauris luctus</p>
-                            <h2 class="details-content__title mt-30 mb-35">Working Process</h2>
-                        </div>
-                        <div class="row mt-none-30">
-                            <div class="col-xl-3 col-lg-6 col-md-6 mt-30">
-                                <div class="wp-box">
-                                    <div class="wp-box__icon wp-box__icon--1 mb-25">
-                                        <img src="assets/images/icons/w-p-1.png" alt="">
-                                    </div>
-                                    <div class="wp-box__content">
-                                        <h4 class="wp-box__title wp-box__title--2">Booking Online</h4>
-                                        <p>God They moving an firmament seed over herb gathering multis ply morning
-                                            fruitful</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-6 col-md-6 mt-30">
-                                <div class="wp-box">
-                                    <div class="wp-box__icon wp-box__icon--2 mb-25">
-                                        <img src="assets/images/icons/w-p-2.png" alt="">
-                                    </div>
-                                    <div class="wp-box__content">
-                                        <h4 class="wp-box__title wp-box__title--2">Received Work</h4>
-                                        <p>God They moving an firmament seed over herb gathering multis ply morning
-                                            fruitful</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-6 col-md-6 mt-30">
-                                <div class="wp-box">
-                                    <div class="wp-box__icon wp-box__icon--3 mb-25">
-                                        <img src="assets/images/icons/w-p-3.png" alt="">
-                                    </div>
-                                    <div class="wp-box__content">
-                                        <h4 class="wp-box__title wp-box__title--2">Satisfied Design</h4>
-                                        <p>God They moving an firmament seed over herb gathering multis ply morning
-                                            fruitful</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-6 col-md-6 mt-30">
-                                <div class="wp-box">
-                                    <div class="wp-box__icon wp-box__icon--4 mb-25">
-                                        <img src="assets/images/icons/w-p-4.png" alt="">
-                                    </div>
-                                    <div class="wp-box__content">
-                                        <h4 class="wp-box__title wp-box__title--2">Start Printing</h4>
-                                        <p>God They moving an firmament seed over herb gathering multis ply morning
-                                            fruitful</p>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                         <div class="row mt-10">
                             <div class="col-xl-6 col-lg-6 col-md-6 d-flex mt-30">

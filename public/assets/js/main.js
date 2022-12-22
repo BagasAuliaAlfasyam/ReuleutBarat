@@ -1,7 +1,7 @@
 (function ($) {
-    'use strict';
+	'use strict';
 
-    /*------------- preloader js --------------*/
+	/*------------- preloader js --------------*/
 	function loader() {
 		$(window).on('load', function () {
 			$('#ctn-preloader').addClass('loaded');
@@ -22,10 +22,10 @@
 		background();
 	});
 
-    // background image js
+	// background image js
 	function background() {
-			var img=$('.bg_img');
-			img.css('background-image', function () {
+		var img = $('.bg_img');
+		img.css('background-image', function () {
 			var bg = ('url(' + $(this).data('background') + ')');
 			return bg;
 		});
@@ -125,7 +125,7 @@
 		slideSpeed: 3000,
 		nav: false,
 		dots: false,
-		responsiveClass:true,
+		responsiveClass: true,
 		responsive: {
 			0: {
 				items: 1,
@@ -196,10 +196,10 @@
 		// For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
 		var mapOptions = {
 			// How zoomed in you want the map to start at (always required)
-			zoom: 8,
+			zoom: 16,
 			scrollwheel: false,
 			// The latitude and longitude to center the map (always required)
-			center: new google.maps.LatLng(23.7031006, 90.4596732), // New York
+			center: new google.maps.LatLng(5.236229, 96.981267), // New York
 			// This is where you would paste any style found on Snazzy Maps.
 			styles: [{
 				"stylers": [{
@@ -230,7 +230,7 @@
 
 		// Let's also add a marker while we're at it
 		var marker = new google.maps.Marker({
-			position: new google.maps.LatLng(23.7031006, 90.4596732),
+			position: new google.maps.LatLng(5.236229, 96.981267),
 			map: map,
 			icon: "",
 			title: 'Cryptox'
@@ -240,7 +240,7 @@
 		google.maps.event.addDomListener(window, 'load', basicmap);
 	}
 
-	
+
 
 })(jQuery);
 
