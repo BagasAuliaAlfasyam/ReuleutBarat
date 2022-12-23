@@ -10,12 +10,12 @@
                 <div class="col-xl-8 d-flex pr-0">
                     <div class="breadcrumb-text">
                         <h2 class="breadcrumb-text__title">
-                            Privacy policy
+                            Visi Dan Misi
                         </h2>
                         <ul class="breadcrumb-text__nav">
-                            <li><a href="index.html">Home</a></li>
+                            <li>Geuchik</li>
                             <li>-</li>
-                            <li>Privacy policy</li>
+                            <li>Reuleut Barat</li>
                         </ul>
                     </div>
                 </div>
@@ -30,7 +30,7 @@
             <div class="row justify-content-center">
                 <div class="col-xl-8 text-center">
                     <div class="section-header mb-60">
-                        <h2 class="section-title section-title__2">pixen privacy policy</h2>
+                        <h2 class="section-title section-title__2">Visi Dan Misi</h2>
                     </div>
                 </div>
             </div>
@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div class="col-xl-12">
-                    <h4 class="privacy__heading mb-15">01. Licensing Policy:</h4>
+                    <h4 class="privacy__heading mb-15">Visi:</h4>
                     <p>Aliquam fringilla pretium class Ide facilisis volutpat amet cras. Nam sociis sem sollicitudin
                         dictum dapibus ullamcorper
                         cras on aptent suscipit posuere tace Morbi aenean laoreet dictum porta donec sapien neque nisl
@@ -57,22 +57,18 @@
                         potenti netus hac ute Ad natoque curabitur augue adipiscing nec.</p>
                 </div>
                 <div class="col-xl-12">
-                    <h4 class="privacy__heading mt-30 mb-20">02. General Information:</h4>
-                    <ul class="privacy__lists">
-                        <li>Nam sociis sem sollicitudin dictum dapibus ullamcorper cras on aptent suscipit posuere tace
-                            Morbi aenean laoreet dictum
-                            porta donec sapien neque nire for laoreet aptent fringilla dolor. Conubia sociosqu enim
-                            fermentum. Hace ester tore
-                            condimentum lorem mauris</li>
-                        <li>Platea nullam dignissim augue ac vulputate varius tristique porttitor ac sociosqu ad
-                            vehicula quis molestie pretium
-                            tempus ut ullamcorper vehicula pede, vehicula hymenaeos sodales aptent</li>
-                        <li>Egestas quisque class ornare facilisis senectus eleifend Lorem senectus eu facilisi dapibus
-                            Faucibus netus. Torquent
-                            elementum augue ac mattis ridicu</li>
-                    </ul>
+                    <h4 class="privacy__heading mb-15">Misi:</h4>
+                    <p>Aliquam fringilla pretium class Ide facilisis volutpat amet cras. Nam sociis sem sollicitudin
+                        dictum dapibus ullamcorper
+                        cras on aptent suscipit posuere tace Morbi aenean laoreet dictum porta donec sapien neque nisl
+                        laoreet aptent fringilla
+                        dolor. Conubia sociosqu enim fermentum. Hace ester tore condimentum lorem mauris tincidunt sem
+                        ornare id vehicula.
+                        Malesuada quam feugiat sociosqu eu elementum dis parturient nisle condimentum ullamcorper leo
+                        ullamcor auctor arcu vel
+                        potenti netus hac ute Ad natoque curabitur augue adipiscing nec.</p>
                 </div>
-            </div>
+                </div>
         </div>
     </div>
     <!-- privacy section end -->

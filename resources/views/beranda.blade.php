@@ -15,7 +15,7 @@
                                 Di Website Desa<br>
                                 Reuleut Barat</h2>
                             <p>Prioritas Anda adalah milik kami</p>
-                            <a href="about.html" class="site-btn site-btn__2"><span class="icon"><i
+                            <a href="#aboutHome" class="site-btn site-btn__2"><span class="icon"><i
                                         class="far fa-arrow-right"></i></span> Baca selengkapnya</a>
                         </div>
                         <div class="dot-shape"><img src="assets/images/shape/hero-pattern-2.png" alt=""></div>
@@ -30,7 +30,7 @@
     <!-- hero end -->
 
     <!-- about section start -->
-    <section class="about-area pt-125 pb-125">
+    <section class="about-area pt-125 pb-125" id="aboutHome">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-xl-5">

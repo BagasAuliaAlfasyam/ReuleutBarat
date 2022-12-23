@@ -17,10 +17,10 @@
             </div>
             <div class="row mt-none-50">
                 <div class="col-xl-6 col-lg-6 mt-50">
-                    <a href="#">
+                    <a href="/cot-teungoh">
                         <div class="service-item d-flex">
                             <div class="service-item__icon service-item__icon--1">
-                                <img src="assets/images/icons/s-1.png" alt="">
+                                <img src="assets/images/icons/icon.png" alt="">
                             </div>
                             <div class="service-item__content">
                                 <h4 class="service-item__title">Banner Printing</h4>
@@ -30,37 +30,43 @@
                     </a>
                 </div>
                 <div class="col-xl-6 col-lg-6 mt-50">
-                    <div class="service-item d-flex">
-                        <div class="service-item__icon service-item__icon--2">
-                            <img src="assets/images/icons/s-2.png" alt="">
+                    <a href="/paloh-bugak">
+                        <div class="service-item d-flex">
+                            <div class="service-item__icon service-item__icon--2">
+                                <img src="assets/images/icons/icon.png" alt="">
+                            </div>
+                            <div class="service-item__content">
+                                <h4 class="service-item__title">Poster Printing</h4>
+                                <p>Dise duis auctor an cume del enima felise proins parturient port a nostra</p>
+                            </div>
                         </div>
-                        <div class="service-item__content">
-                            <h4 class="service-item__title">Poster Printing</h4>
-                            <p>Dise duis auctor an cume del enima felise proins parturient port a nostra</p>
-                        </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-xl-6 col-lg-6 mt-50">
-                    <div class="service-item d-flex">
-                        <div class="service-item__icon service-item__icon--3">
-                            <img src="assets/images/icons/s-3.png" alt="">
+                    <a href="/paloh-panyang">
+                        <div class="service-item d-flex">
+                            <div class="service-item__icon service-item__icon--3">
+                                <img src="assets/images/icons/icon.png" alt="">
+                            </div>
+                            <div class="service-item__content">
+                                <h4 class="service-item__title">Flyer Printing</h4>
+                                <p>Dise duis auctor an cume del enima felise proins parturient port a nostra</p>
+                            </div>
                         </div>
-                        <div class="service-item__content">
-                            <h4 class="service-item__title">Flyer Printing</h4>
-                            <p>Dise duis auctor an cume del enima felise proins parturient port a nostra</p>
-                        </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-xl-6 col-lg-6 mt-50">
-                    <div class="service-item d-flex">
-                        <div class="service-item__icon service-item__icon--4">
-                            <img src="assets/images/icons/s-4.png" alt="">
+                    <a href="/paloh-sawang">
+                        <div class="service-item d-flex">
+                            <div class="service-item__icon service-item__icon--4">
+                                <img src="assets/images/icons/icon.png" alt="">
+                            </div>
+                            <div class="service-item__content">
+                                <h4 class="service-item__title">Business Card</h4>
+                                <p>Dise duis auctor an cume del enima felise proins parturient port a nostra</p>
+                            </div>
                         </div>
-                        <div class="service-item__content">
-                            <h4 class="service-item__title">Business Card</h4>
-                            <p>Dise duis auctor an cume del enima felise proins parturient port a nostra</p>
-                        </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>

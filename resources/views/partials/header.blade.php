@@ -29,10 +29,10 @@
                                     </li>
                                     <li><a href="/dusun">Dusun</a>
                                         <ul class="sub-menu">
-                                            <li><a href="/cot-teungoh">Cot Teungeuh</a></li>
-                                            <li><a href="/paloh-bugak">Paloh Bugak</a></li>
-                                            <li><a href="/paloh-panyang">Paloh Panyang</a></li>
-                                            <li><a href="/paloh-sawang">Paloh Sawang</a></li>
+                                            <li><a href="/dusun/cot-teungoh">Cot Teungoh</a></li>
+                                            <li><a href="/dusun/paloh-bugak">Paloh Bugak</a></li>
+                                            <li><a href="/dusun/paloh-panyang">Paloh Panyang</a></li>
+                                            <li><a href="/dusun/paloh-sawang">Paloh Sawang</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="/kontak">Kontak</a></li>
