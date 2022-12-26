@@ -5,7 +5,7 @@
                 <div class="col-xl-8 col-lg-12">
                     <div class="navarea navarea__2">
                         <a href="/" class="site-logo">
-                            <img src="assets/images/logo/logo.png" alt="LOGO">
+                            <img src="/assets/images/logo/logo.png" alt="LOGO">
                         </a>
                         <div class="mainmenu mainmenu__2">
                             <nav id="mobile-menu">

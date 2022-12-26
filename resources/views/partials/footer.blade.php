@@ -3,7 +3,7 @@
         <div class="row mt-none-50 justify-content-center">
             <div class="col-xl-2 col-lg-3 mt-50">
                 <a href="/" class="footer__logo">
-                    <img src="assets/images/logo/logo-white.png" alt="">
+                    <img src="/assets/images/logo/logo-white.png" alt="">
                 </a>
             </div>
             <div class="col-xl-2 col-lg-4 mt-50 pl-45 pr-0">

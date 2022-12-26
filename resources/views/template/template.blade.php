@@ -13,19 +13,19 @@
     <title>Reuleut Barat</title>
 
     <!--====== Favicon ======-->
-    <link rel="shortcut icon" href="assets/images/logo/favicon.png" type="images/x-icon" />
+    <link rel="shortcut icon" href="/assets/images/logo/favicon.png" type="images/x-icon" />
 
     <!--====== CSS Here ======-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/lightcase.css">
-    <link rel="stylesheet" href="assets/css/meanmenu.css">
-    <link rel="stylesheet" href="assets/css/nice-select.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/odometer.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/preloader.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/lightcase.css">
+    <link rel="stylesheet" href="/assets/css/meanmenu.css">
+    <link rel="stylesheet" href="/assets/css/nice-select.css">
+    <link rel="stylesheet" href="/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/css/odometer.css">
+    <link rel="stylesheet" href="/assets/css/animate.min.css">
+    <link rel="stylesheet" href="/assets/css/preloader.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 
 </head>
 
@@ -49,25 +49,25 @@
 
     <!--========= JS Here =========-->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfpGBFn5yRPvJrvAKoGIdj1O1aO9QisgQ"></script>
-    <script src="assets/js/jquery-2.2.4.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.meanmenu.min.js"></script>
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <script src="assets/js/counterup.min.js"></script>
-    <script src="assets/js/lightcase.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/tilt.jquery.min.js"></script>
-    <script src="assets/js/jquery.easing.min.js"></script>
-    <script src="assets/js/scrollwatch.js"></script>
-    <script src="assets/js/sticky-header.js"></script>
-    <script src="assets/js/waypoint.js"></script>
-    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/js/isotope.pkgd.min.js"></script>
-    <script src="assets/js/jquery.appear.js"></script>
-    <script src="assets/js/odometer.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/ajax-form.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="/assets/js/jquery-2.2.4.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/jquery.meanmenu.min.js"></script>
+    <script src="/assets/js/jquery.nice-select.min.js"></script>
+    <script src="/assets/js/counterup.min.js"></script>
+    <script src="/assets/js/lightcase.js"></script>
+    <script src="/assets/js/owl.carousel.min.js"></script>
+    <script src="/assets/js/tilt.jquery.min.js"></script>
+    <script src="/assets/js/jquery.easing.min.js"></script>
+    <script src="/assets/js/scrollwatch.js"></script>
+    <script src="/assets/js/sticky-header.js"></script>
+    <script src="/assets/js/waypoint.js"></script>
+    <script src="/assets/js/imagesloaded.pkgd.min.js"></script>
+    <script src="/assets/js/isotope.pkgd.min.js"></script>
+    <script src="/assets/js/jquery.appear.js"></script>
+    <script src="/assets/js/odometer.min.js"></script>
+    <script src="/assets/js/wow.min.js"></script>
+    <script src="/assets/js/ajax-form.js"></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

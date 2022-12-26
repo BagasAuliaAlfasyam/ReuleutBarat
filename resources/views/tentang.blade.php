@@ -8,9 +8,9 @@
                 <div class="col-xl-8 text-center">
                     <div class="section-header mb-75">
                         <h4 class="sub-heading mb-25">
-                            <span><img src="assets/images/shape/heading-shape-1.png" class="mr-10" alt=""></span>
+                            <span><img src="/assets/images/shape/heading-shape-1.png" class="mr-10" alt=""></span>
                             Our Services
-                            <span><img src="assets/images/shape/heading-shape-2.png" class="ml-10" alt=""></span>
+                            <span><img src="/assets/images/shape/heading-shape-2.png" class="ml-10" alt=""></span>
                         </h4>
                         <h2 class="section-title">Flawless Printing</h2>
                     </div>
@@ -20,7 +20,7 @@
                 <div class="col-xl-6 col-lg-6 mt-50">
                     <div class="service-item d-flex">
                         <div class="service-item__icon service-item__icon--1">
-                            <img src="assets/images/icons/s-1.png" alt="">
+                            <img src="/assets/images/icons/s-1.png" alt="">
                         </div>
                         <div class="service-item__content">
                             <h4 class="service-item__title">Banner Printing</h4>
@@ -31,7 +31,7 @@
                 <div class="col-xl-6 col-lg-6 mt-50">
                     <div class="service-item d-flex">
                         <div class="service-item__icon service-item__icon--2">
-                            <img src="assets/images/icons/s-2.png" alt="">
+                            <img src="/assets/images/icons/s-2.png" alt="">
                         </div>
                         <div class="service-item__content">
                             <h4 class="service-item__title">Poster Printing</h4>
@@ -42,7 +42,7 @@
                 <div class="col-xl-6 col-lg-6 mt-50 mx-auto">
                     <div class="service-item d-flex">
                         <div class="service-item__icon service-item__icon--3">
-                            <img src="assets/images/icons/s-3.png" alt="">
+                            <img src="/assets/images/icons/s-3.png" alt="">
                         </div>
                         <div class="service-item__content">
                             <h4 class="service-item__title">Flyer Printing</h4>
@@ -65,10 +65,10 @@
     <!-- testimonial section start -->
     <div class="testimonial-area theme-bg  pt-155 pb-155">
         <span class="shape shape__1">
-            <img src="assets/images/shape/t-line-1.png" alt="">
+            <img src="/assets/images/shape/t-line-1.png" alt="">
         </span>
         <span class="shape shape__2">
-            <img src="assets/images/shape/t-line-2.png" alt="">
+            <img src="/assets/images/shape/t-line-2.png" alt="">
         </span>
         <div class="container">
             <div class="row justify-content-end">
@@ -85,12 +85,12 @@
                         <div class="testimonial-item">
                             <div class="testimonial-item__thumb">
                                 <span class="t-shape">
-                                    <img src="assets/images/shape/border-shape.png" alt="">
+                                    <img src="/assets/images/shape/border-shape.png" alt="">
                                 </span>
                                 <div class="author">
-                                    <img src="assets/images/other/author-1.png" alt="">
+                                    <img src="/assets/images/other/author-1.png" alt="">
                                 </div>
-                                <span class="quote"><img src="assets/images/icons/t-quote.png" alt=""></span>
+                                <span class="quote"><img src="/assets/images/icons/t-quote.png" alt=""></span>
                             </div>
                             <div class="testimonial-item__content">
                                 <p>Malesuada imperdiet commodo nostra taciti neque arcu in sem a vivamus tempor ac sem

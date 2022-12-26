@@ -2,13 +2,13 @@
 
 @section('main')
     <!-- hero start -->
-    <section class="hero__2 bg_img" data-background="assets/images/banner/hero-banner-2.jpeg">
+    <section class="hero__2 bg_img" data-background="/assets/images/banner/hero-banner-2.jpeg">
         <div class="container-fluid">
             <div class="row justify-content-end">
                 <div class="col-xl-5 custom-col-width justify-content-end col-lg-7">
                     <div class="hero__content hero__content--2 text-center">
                         <div class="hero-icon">
-                            <img src="assets/images/icons/hero-icon.png" alt="">
+                            <img src="/assets/images/icons/hero-icon.png" alt="">
                         </div>
                         <div class="hero-text">
                             <h2>Selamat Datang<br>
@@ -18,13 +18,13 @@
                             <a href="#aboutHome" class="site-btn site-btn__2"><span class="icon"><i
                                         class="far fa-arrow-right"></i></span> Baca selengkapnya</a>
                         </div>
-                        <div class="dot-shape"><img src="assets/images/shape/hero-pattern-2.png" alt=""></div>
+                        <div class="dot-shape"><img src="/assets/images/shape/hero-pattern-2.png" alt=""></div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="shape-pattern">
-            <img src="assets/images/shape/hero-pattern-1.png" alt="">
+            <img src="/assets/images/shape/hero-pattern-1.png" alt="">
         </div>
     </section>
     <!-- hero end -->
@@ -36,24 +36,24 @@
                 <div class="col-xl-5">
                     <div class="about__bg about__bg--2 mt-75">
                         <div class="big-thumb">
-                            <img src="assets/images/about/about-bg-1.jpeg" alt="">
+                            <img src="/assets/images/about/about-bg-1.jpeg" alt="">
                         </div>
                         <div class="mid-thumb position-absulate">
-                            <img src="assets/images/about/about-bg-2.jpeg" alt="">
+                            <img src="/assets/images/about/about-bg-2.jpeg" alt="">
                         </div>
                         <div class="small-thumb position-absulate">
-                            <img src="assets/images/about/about-bg-3.jpeg" alt="">
+                            <img src="/assets/images/about/about-bg-3.jpeg" alt="">
                         </div>
-                        <span class="circle-shape position-absulate"><img src="assets/images/shape/border-shape-2.png"
+                        <span class="circle-shape position-absulate"><img src="/assets/images/shape/border-shape-2.png"
                                 alt=""></span>
-                        <span class="patternt-shape position-absulate"><img src="assets/images/shape/about-shape-1.png"
+                        <span class="patternt-shape position-absulate"><img src="/assets/images/shape/about-shape-1.png"
                                 alt=""></span>
                     </div>
                 </div>
                 <div class="col-xl-6">
                     <div class="section-header section-header__2 mb-40">
                         <h4 class="sub-heading sub-heading__2 mb-10">Kilasan Tentang<span><img
-                                    src="assets/images/shape/heading-shape-4.png" class="ml-10" alt=""></span></h4>
+                                    src="/assets/images/shape/heading-shape-4.png" class="ml-10" alt=""></span></h4>
                         <h2 class="section-title section-title__2 mb-30">Reuleut Barat</h2>
                         <p>Libero aliquam eiget rhoncus elit quis mattis tos neque ullco qua praesent interdum orce
                             torristique aenean at dictumst
@@ -86,9 +86,9 @@
                 <div class="col-xl-8 text-center">
                     <div class="section-header mb-70">
                         <h4 class="sub-heading sub-heading__2 mb-15">
-                            <span><img src="assets/images/shape/heading-shape-3.png" class="mr-5" alt=""></span>
+                            <span><img src="/assets/images/shape/heading-shape-3.png" class="mr-5" alt=""></span>
                             Berikut
-                            <span><img src="assets/images/shape/heading-shape-4.png" class="ml-5" alt=""></span>
+                            <span><img src="/assets/images/shape/heading-shape-4.png" class="ml-5" alt=""></span>
                         </h4>
                         <h2 class="section-title section-title__2">UMKM REULEUT BARAT</h2>
                     </div>
@@ -98,8 +98,8 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 mt-30">
                     <div class="feature-item feature-item__2">
                         <div class="feature-item__icon feature-item__icon--round bg_img"
-                            data-background="assets/images/shape/round-shape.png">
-                            <img src="assets/images/icons/f-5.png" alt="">
+                            data-background="/assets/images/shape/round-shape.png">
+                            <img src="/assets/images/icons/f-5.png" alt="">
                         </div>
                         <div class="feature-item__content feature-item__content--2">
                             <h4 class="feature-item__title feature-item__title--2">Brand Printing</h4>
@@ -114,8 +114,8 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 mt-30">
                     <div class="feature-item feature-item__2">
                         <div class="feature-item__icon feature-item__icon--round bg_img"
-                            data-background="assets/images/shape/round-shape.png">
-                            <img src="assets/images/icons/f-6.png" alt="">
+                            data-background="/assets/images/shape/round-shape.png">
+                            <img src="/assets/images/icons/f-6.png" alt="">
                         </div>
                         <div class="feature-item__content feature-item__content--2">
                             <h4 class="feature-item__title feature-item__title--2">Digital Printing</h4>
@@ -130,8 +130,8 @@
                 <div class="col-xl-4 col-lg-6 col-md-6 mt-30">
                     <div class="feature-item feature-item__2">
                         <div class="feature-item__icon feature-item__icon--round bg_img"
-                            data-background="assets/images/shape/round-shape.png">
-                            <img src="assets/images/icons/f-7.png" alt="">
+                            data-background="/assets/images/shape/round-shape.png">
+                            <img src="/assets/images/icons/f-7.png" alt="">
                         </div>
                         <div class="feature-item__content feature-item__content--2">
                             <h4 class="feature-item__title feature-item__title--2">Offset Printing</h4>
@@ -156,7 +156,7 @@
                     <div class="testimonial__2 owl-carousel text-center">
                         <div class="testimonial-item">
                             <div class="testimonial__2--icon mb-70">
-                                <img src="assets/images/icons/t-quote-2.png" alt="">
+                                <img src="/assets/images/icons/t-quote-2.png" alt="">
                             </div>
                             <div class="testimonial__2--content">
                                 <p>Lorem ipsum dolor site amet consectetur adipisice
@@ -167,7 +167,7 @@
                             </div>
                             <div class="testimonial__2--author mt-55">
                                 <div class="thumb">
-                                    <img src="assets/images/other/author-2.png" alt="">
+                                    <img src="/assets/images/other/author-2.png" alt="">
                                 </div>
                                 <div class="content">
                                     <h4 class="name">Marina D. Lucator</h4>
@@ -177,7 +177,7 @@
                         </div>
                         <div class="testimonial-item">
                             <div class="testimonial__2--icon mb-70">
-                                <img src="assets/images/icons/t-quote-2.png" alt="">
+                                <img src="/assets/images/icons/t-quote-2.png" alt="">
                             </div>
                             <div class="testimonial__2--content">
                                 <p>Lorem ipsum dolor site amet consectetur adipisice
@@ -188,7 +188,7 @@
                             </div>
                             <div class="testimonial__2--author mt-55">
                                 <div class="thumb">
-                                    <img src="assets/images/other/author-2.png" alt="">
+                                    <img src="/assets/images/other/author-2.png" alt="">
                                 </div>
                                 <div class="content">
                                     <h4 class="name">Marina D. Lucator</h4>
@@ -210,7 +210,7 @@
                 <div class="col-xl-3 col-lg-6 col-md-6 mt-40">
                     <div class="counter-box text-center">
                         <div class="counter_box__icon">
-                            <img src="assets/images/icons/c-1.png" alt="">
+                            <img src="/assets/images/icons/c-1.png" alt="">
                         </div>
                         <h2 class="counter_box__title"><span class="odometer" data-count="875">00</span></h2>
                         <p>Complete Work</p>
@@ -219,7 +219,7 @@
                 <div class="col-xl-3 col-lg-6 col-md-6 mt-40">
                     <div class="counter-box text-center">
                         <div class="counter_box__icon">
-                            <img src="assets/images/icons/c-2.png" alt="">
+                            <img src="/assets/images/icons/c-2.png" alt="">
                         </div>
                         <h2 class="counter_box__title"><span class="odometer" data-count="245">00</span></h2>
                         <p>Expert Member</p>
@@ -228,7 +228,7 @@
                 <div class="col-xl-3 col-lg-6 col-md-6 mt-40">
                     <div class="counter-box text-center">
                         <div class="counter_box__icon">
-                            <img src="assets/images/icons/c-3.png" alt="">
+                            <img src="/assets/images/icons/c-3.png" alt="">
                         </div>
                         <h2 class="counter_box__title"><span class="odometer" data-count="452">00</span></h2>
                         <p>Satisfied Client</p>
@@ -237,7 +237,7 @@
                 <div class="col-xl-3 col-lg-6 col-md-6 mt-40">
                     <div class="counter-box text-center">
                         <div class="counter_box__icon">
-                            <img src="assets/images/icons/c-4.png" alt="">
+                            <img src="/assets/images/icons/c-4.png" alt="">
                         </div>
                         <h2 class="counter_box__title"><span class="odometer" data-count="624">00</span></h2>
                         <p>Total Coffees</p>
@@ -278,9 +278,9 @@
                 <div class="col-xl-8 text-center">
                     <div class="section-header mb-65">
                         <h4 class="sub-heading sub-heading__2 mb-15">
-                            <span><img src="assets/images/shape/heading-shape-3.png" class="mr-5"
+                            <span><img src="/assets/images/shape/heading-shape-3.png" class="mr-5"
                                     alt=""></span>
-                            <span><img src="assets/images/shape/heading-shape-4.png" class="ml-5"
+                            <span><img src="/assets/images/shape/heading-shape-4.png" class="ml-5"
                                     alt=""></span>
                         </h4>
                         <h2 class="section-title section-title__2">Galeri</h2>
@@ -293,7 +293,7 @@
                 <div class="col-xl-5 col-lg-6 col-md-6 d-flex align-self-stretch mt-30">
                     <div class="project-item">
                         <div class="project-item__thumb project-item__thumb--big">
-                            <img src="assets/images/project/p-6.jpeg" alt="">
+                            <img src="/assets/images/project/p-6.jpeg" alt="">
                         </div>
                     </div>
                 </div>
@@ -302,21 +302,21 @@
                         <div class="col-xl-6 col-md-6 col-lg-6 mt-30">
                             <div class="project-item">
                                 <div class="project-item__thumb">
-                                    <img src="assets/images/project/p-7.jpeg" alt="">
+                                    <img src="/assets/images/project/p-7.jpeg" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-6 col-md-6 col-lg-6 mt-30">
                             <div class="project-item">
                                 <div class="project-item__thumb">
-                                    <img src="assets/images/project/p-8.jpeg" alt="">
+                                    <img src="/assets/images/project/p-8.jpeg" alt="">
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-12 col-md-6 col-lg-12 col-md-12 mt-30">
                             <div class="project-item">
                                 <div class="project-item__thumb">
-                                    <img src="assets/images/project/p-9.jpeg" alt="">
+                                    <img src="/assets/images/project/p-9.jpeg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -345,7 +345,7 @@
                 <div class="col-xl-6 col-lg-12 mt-30">
                     <article class="post-box">
                         <div class="post-box__thumb post-box__thumb--2">
-                            <img src="assets/images/news/news-4.jpeg" alt="">
+                            <img src="/assets/images/news/news-4.jpeg" alt="">
                         </div>
                         <div
                             class="post-box__content post-box__content--2 post-box__content--grey post-box__content--white  pl-45 pr-45">
@@ -384,7 +384,7 @@
                             </div>
                             <div class="col-xl-6 col-lg-6">
                                 <div class="post-box__thumb post-box__thumb--2">
-                                    <img src="assets/images/news/news-5.jpg" alt="">
+                                    <img src="/assets/images/news/news-5.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -393,7 +393,7 @@
                         <div class="row mt-30">
                             <div class="col-xl-6 col-lg-6">
                                 <div class="post-box__thumb post-box__thumb--2">
-                                    <img src="assets/images/news/news-6.jpeg" alt="">
+                                    <img src="/assets/images/news/news-6.jpeg" alt="">
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 my-auto">

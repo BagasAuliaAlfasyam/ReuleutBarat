@@ -2,7 +2,7 @@
 
 @section('main')
     <!-- breadcrumb section start -->
-    <section class="breadcrumb-section pt-180 pb-180 bg_img" data-background="assets/images/bg/breadcrumb-bg-1.jpeg"
+    <section class="breadcrumb-section pt-180 pb-180 bg_img" data-background="/assets/images/bg/breadcrumb-bg-1.jpeg"
         data-overlay="dark" data-opacity="3">
         <div class="container">
             <div class="row">
@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-xl-4">
                     <div class="team-details__thumb d-flex align-self-stretch">
-                        <img src="assets/images/team/team-2.jpeg" alt="">
+                        <img src="/assets/images/team/team-2.jpeg" alt="">
                     </div>
                 </div>
                 <div class="col-xl-8">
@@ -73,7 +73,7 @@
                 <div class="col-xl-4">
                     <div class="sidebar grey-bg">
                         <h4 class="sidebar__title">
-                            <span><img src="assets/images/shape/heading-shape-3.png" class="mr-5" alt=""></span>
+                            <span><img src="/assets/images/shape/heading-shape-3.png" class="mr-5" alt=""></span>
                             More Service
                         </h4>
                         <ul class="sidebar__list">
@@ -190,7 +190,7 @@
                         <div class="col-xl-6 col-lg-6 col-md-6 d-flex mt-30">
                             <div class="project-item">
                                 <div class="project-item__thumb project-item__thumb--big">
-                                    <img src="assets/images/project/p-3.jpeg" alt="">
+                                    <img src="/assets/images/project/p-3.jpeg" alt="">
                                 </div>
                                 <div class="project-item__hover" data-overlay="dark" data-opacity="9">
                                     <a href="project-details.html" class="project-item__link"><i
@@ -205,7 +205,7 @@
                         <div class="col-xl-6 col-lg-6 col-md-6 d-flex mt-30">
                             <div class="project-item">
                                 <div class="project-item__thumb project-item__thumb--big">
-                                    <img src="assets/images/project/p-11.jpeg" alt="">
+                                    <img src="/assets/images/project/p-11.jpeg" alt="">
                                 </div>
                                 <div class="project-item__hover" data-overlay="dark" data-opacity="9">
                                     <a href="project-details.html" class="project-item__link"><i
@@ -220,7 +220,7 @@
                         <div class="col-xl-6 col-lg-6 col-md-6 d-flex mt-30">
                             <div class="project-item">
                                 <div class="project-item__thumb project-item__thumb--big">
-                                    <img src="assets/images/project/p-14.jpeg" alt="">
+                                    <img src="/assets/images/project/p-14.jpeg" alt="">
                                 </div>
                                 <div class="project-item__hover" data-overlay="dark" data-opacity="9">
                                     <a href="project-details.html" class="project-item__link"><i
@@ -235,7 +235,7 @@
                         <div class="col-xl-6 col-lg-6 col-md-6 d-flex mt-30">
                             <div class="project-item">
                                 <div class="project-item__thumb project-item__thumb--big">
-                                    <img src="assets/images/project/p-4.jpeg" alt="">
+                                    <img src="/assets/images/project/p-4.jpeg" alt="">
                                 </div>
                                 <div class="project-item__hover" data-overlay="dark" data-opacity="9">
                                     <a href="project-details.html" class="project-item__link"><i

@@ -8,9 +8,9 @@
                 <div class="col-xl-8 text-center">
                     <div class="section-header mb-75">
                         <h2 class="sub-heading mb-25">
-                            <span><img src="assets/images/shape/heading-shape-1.png" class="mr-10" alt=""></span>
+                            <span><img src="/assets/images/shape/heading-shape-1.png" class="mr-10" alt=""></span>
                             Dusun Kami
-                            <span><img src="assets/images/shape/heading-shape-2.png" class="ml-10" alt=""></span>
+                            <span><img src="/assets/images/shape/heading-shape-2.png" class="ml-10" alt=""></span>
                         </h2>
                     </div>
                 </div>
@@ -20,7 +20,7 @@
                     <a href="/cot-teungoh">
                         <div class="service-item d-flex">
                             <div class="service-item__icon service-item__icon--1">
-                                <img src="assets/images/icons/icon.png" alt="">
+                                <img src="/assets/images/icons/icon.png" alt="">
                             </div>
                             <div class="service-item__content">
                                 <h4 class="service-item__title">Banner Printing</h4>
@@ -33,7 +33,7 @@
                     <a href="/paloh-bugak">
                         <div class="service-item d-flex">
                             <div class="service-item__icon service-item__icon--2">
-                                <img src="assets/images/icons/icon.png" alt="">
+                                <img src="/assets/images/icons/icon.png" alt="">
                             </div>
                             <div class="service-item__content">
                                 <h4 class="service-item__title">Poster Printing</h4>
@@ -46,7 +46,7 @@
                     <a href="/paloh-panyang">
                         <div class="service-item d-flex">
                             <div class="service-item__icon service-item__icon--3">
-                                <img src="assets/images/icons/icon.png" alt="">
+                                <img src="/assets/images/icons/icon.png" alt="">
                             </div>
                             <div class="service-item__content">
                                 <h4 class="service-item__title">Flyer Printing</h4>
@@ -59,7 +59,7 @@
                     <a href="/paloh-sawang">
                         <div class="service-item d-flex">
                             <div class="service-item__icon service-item__icon--4">
-                                <img src="assets/images/icons/icon.png" alt="">
+                                <img src="/assets/images/icons/icon.png" alt="">
                             </div>
                             <div class="service-item__content">
                                 <h4 class="service-item__title">Business Card</h4>

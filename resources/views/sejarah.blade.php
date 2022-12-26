@@ -2,7 +2,7 @@
 
 @section('main')
     <!-- breadcrumb section start -->
-    <section class="breadcrumb-section pt-180 pb-180 bg_img" data-background="assets/images/bg/breadcrumb-bg-1.jpeg"
+    <section class="breadcrumb-section pt-180 pb-180 bg_img" data-background="/assets/images/bg/breadcrumb-bg-1.jpeg"
         data-overlay="dark" data-opacity="3">
         <div class="container">
             <div class="row">
@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="project-thumb d-flex align-self-stretch">
-                        <img src="assets/images/bg/project-details-bg-1.jpeg" alt="">
+                        <img src="/assets/images/bg/project-details-bg-1.jpeg" alt="">
                     </div>
                 </div>
             </div>
@@ -72,7 +72,7 @@
                             <div class="col-xl-6 col-lg-6 col-md-6 d-flex mt-30">
                                 <div class="project-item">
                                     <div class="project-item__thumb project-item__thumb--big">
-                                        <img src="assets/images/project/p-13.jpeg" alt="">
+                                        <img src="/assets/images/project/p-13.jpeg" alt="">
                                     </div>
                                     <div class="project-item__hover" data-overlay="dark" data-opacity="9">
                                         <a href="project-details.html" class="project-item__link">
@@ -88,7 +88,7 @@
                             <div class="col-xl-6 col-lg-6 col-md-6 d-flex mt-30">
                                 <div class="project-item">
                                     <div class="project-item__thumb project-item__thumb--big">
-                                        <img src="assets/images/project/p-14.jpeg" alt="">
+                                        <img src="/assets/images/project/p-14.jpeg" alt="">
                                     </div>
                                     <div class="project-item__hover" data-overlay="dark" data-opacity="9">
                                         <a href="project-details.html" class="project-item__link">
@@ -104,7 +104,7 @@
                             <div class="col-xl-6 col-lg-6 col-md-6 d-flex mt-30">
                                 <div class="project-item">
                                     <div class="project-item__thumb project-item__thumb--big">
-                                        <img src="assets/images/project/p-15.jpeg" alt="">
+                                        <img src="/assets/images/project/p-15.jpeg" alt="">
                                     </div>
                                     <div class="project-item__hover" data-overlay="dark" data-opacity="9">
                                         <a href="project-details.html" class="project-item__link">
@@ -120,7 +120,7 @@
                             <div class="col-xl-6 col-lg-6 col-md-6 d-flex mt-30">
                                 <div class="project-item">
                                     <div class="project-item__thumb project-item__thumb--big">
-                                        <img src="assets/images/project/p-16.jpeg" alt="">
+                                        <img src="/assets/images/project/p-16.jpeg" alt="">
                                     </div>
                                     <div class="project-item__hover" data-overlay="dark" data-opacity="9">
                                         <a href="project-details.html" class="project-item__link">

@@ -3,7 +3,7 @@
 @section('main')
 
     <!-- breadcrumb section start -->
-    <section class="breadcrumb-section pt-180 pb-180 bg_img" data-background="assets/images/bg/breadcrumb-bg-1.jpeg"
+    <section class="breadcrumb-section pt-180 pb-180 bg_img" data-background="/assets/images/bg/breadcrumb-bg-1.jpeg"
         data-overlay="dark" data-opacity="3">
         <div class="container">
             <div class="row">

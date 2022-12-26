@@ -2,7 +2,7 @@
 
 @section('main')
     <!-- breadcrumb section start -->
-    <section class="breadcrumb-section pt-180 pb-180 bg_img" data-background="assets/images/bg/breadcrumb-bg-1.jpeg"
+    <section class="breadcrumb-section pt-180 pb-180 bg_img" data-background="/assets/images/bg/breadcrumb-bg-1.jpeg"
         data-overlay="dark" data-opacity="3">
         <div class="container">
             <div class="row">
@@ -31,7 +31,7 @@
                     <article class="blog__box blog__box--3 blog__box--image mb-40">
                         <div class="thumb">
                             <a href="news-details.html">
-                                <img src="assets/images/news/news-list-1.jpeg" alt="blog image">
+                                <img src="/assets/images/news/news-list-1.jpeg" alt="blog image">
                             </a>
                         </div>
                         <div class="content pt-50">
@@ -57,7 +57,7 @@
                             </div>
                             <div class="post-bottom mt-30">
                                 <div class="authore">
-                                    <img src="assets/images/news/news-list-authore.png" alt="">
+                                    <img src="/assets/images/news/news-list-authore.png" alt="">
                                     <span>by Hetmayar</span>
                                 </div>
                                 <a href="news-details.html" class="inline-btn"><span class="icon"><i
@@ -69,7 +69,7 @@
                     <article class="blog__box blog__box--3 blog__box--video mb-40">
                         <div class="thumb">
                             <a href="news-details.html">
-                                <img src="assets/images/news/news-list-2.jpeg" alt="blog image">
+                                <img src="/assets/images/news/news-list-2.jpeg" alt="blog image">
                             </a>
                             <a href="//www.youtube.com/embed/4xe72U7mXNg?rel=0&amp;controls=0&amp;showinfo=0"
                                 data-rel="lightcase:myCollection" data-animation="fadeInLeft" data-delay=".1s"
@@ -108,7 +108,7 @@
                             </div>
                             <div class="post-bottom mt-30">
                                 <div class="authore">
-                                    <img src="assets/images/news/news-list-authore.png" alt="">
+                                    <img src="/assets/images/news/news-list-authore.png" alt="">
                                     <span>by Hetmayar</span>
                                 </div>
                                 <a href="news-details.html" class="inline-btn"><span class="icon"><i
@@ -120,10 +120,10 @@
                     <article class="blog__box blog__box--3 blog__box--gallery mb-40">
                         <div class="post_gallery owl-carousel">
                             <div class="single-postbox-gallery">
-                                <img src="assets/images/news/news-list-3.jpeg" alt="blog image">
+                                <img src="/assets/images/news/news-list-3.jpeg" alt="blog image">
                             </div>
                             <div class="single-postbox-gallery">
-                                <img src="assets/images/news/news-list-2.jpeg" alt="blog image">
+                                <img src="/assets/images/news/news-list-2.jpeg" alt="blog image">
                             </div>
                         </div>
                         <div class="content pt-50">
@@ -151,7 +151,7 @@
                             </div>
                             <div class="post-bottom mt-30">
                                 <div class="authore">
-                                    <img src="assets/images/news/news-list-authore.png" alt="">
+                                    <img src="/assets/images/news/news-list-authore.png" alt="">
                                     <span>by Hetmayar</span>
                                 </div>
                                 <a href="news-details.html" class="inline-btn"><span class="icon"><i
@@ -190,7 +190,7 @@
                             </div>
                             <div class="post-bottom mt-30">
                                 <div class="authore">
-                                    <img src="assets/images/news/news-list-authore.png" alt="">
+                                    <img src="/assets/images/news/news-list-authore.png" alt="">
                                     <span>by Hetmayar</span>
                                 </div>
                                 <a href="news-details.html" class="inline-btn"><span class="icon"><i
@@ -225,7 +225,7 @@
                             </div>
                             <div class="post-bottom">
                                 <div class="authore">
-                                    <img src="assets/images/news/news-list-authore.png" alt="">
+                                    <img src="/assets/images/news/news-list-authore.png" alt="">
                                     <span>by Hetmayar</span>
                                 </div>
                                 <a href="news-details.html" class="inline-btn"><span class="icon"><i
@@ -246,12 +246,12 @@
                                 <span><a href="#0"><i class="far fa-calendar-alt"></i> 24th March 2019</a></span>
                             </div>
                             <div class="quote-icon">
-                                <img src="assets/images/icons/quote-icon.png" alt="">
+                                <img src="/assets/images/icons/quote-icon.png" alt="">
                             </div>
                         </blockquote>
                     </article>
                     <article class="blog__box blog__box--3 blog__box--transparent bg_img"
-                        data-background="assets/images/news/news-list-4.jpeg" data-overlay="light" data-opacity="7">
+                        data-background="/assets/images/news/news-list-4.jpeg" data-overlay="light" data-opacity="7">
                         <div class="content pt-50">
                             <div class="cat">
                                 <span>Businese</span>
@@ -282,11 +282,11 @@
                     <div class="sidebar-wrap">
                         <div class="widget sidebar grey-bg mb-40">
                             <h4 class="sidebar__title">
-                                <span><img src="assets/images/shape/heading-shape-3.png" class="mr-5" alt=""></span>
+                                <span><img src="/assets/images/shape/heading-shape-3.png" class="mr-5" alt=""></span>
                                 About Me
                             </h4>
                             <div class="aboutme text-center">
-                                <img src="assets/images/news/news-author-2.jpeg" alt="">
+                                <img src="/assets/images/news/news-author-2.jpeg" alt="">
                                 <h4>Rosalina D. Willaimson</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                                     incididunt ut labore.</p>
@@ -301,7 +301,7 @@
                         </div>
                         <div class="widget sidebar grey-bg mb-40">
                             <h4 class="sidebar__title mb-30">
-                                <span><img src="assets/images/shape/heading-shape-3.png" class="mr-5" alt=""></span>
+                                <span><img src="/assets/images/shape/heading-shape-3.png" class="mr-5" alt=""></span>
                                 Search Objects
                             </h4>
                             <form class="sidebar-search-form">
@@ -311,14 +311,14 @@
                         </div>
                         <div class="widget sidebar grey-bg mb-40">
                             <h4 class="sidebar__title mb-30">
-                                <span><img src="assets/images/shape/heading-shape-3.png" class="mr-5" alt=""></span>
+                                <span><img src="/assets/images/shape/heading-shape-3.png" class="mr-5" alt=""></span>
                                 Popular Feeds
                             </h4>
                             <ul class="recent-posts">
                                 <li>
                                     <div class="thumb">
                                         <a href="blog-details.html"><img
-                                                src="assets/images/news/news-releted-post-1.jpeg" alt=""></a>
+                                                src="/assets/images/news/news-releted-post-1.jpeg" alt=""></a>
                                     </div>
                                     <div class="content">
                                         <h6 class="title"><a href="news-details.html">Lorem ipsum dolor sit
@@ -329,7 +329,7 @@
                                 <li>
                                     <div class="thumb">
                                         <a href="blog-details.html"><img
-                                                src="assets/images/news/news-releted-post-2.jpeg" alt=""></a>
+                                                src="/assets/images/news/news-releted-post-2.jpeg" alt=""></a>
                                     </div>
                                     <div class="content">
                                         <h6 class="title"><a href="news-details.html">Lorem ipsum dolor sit
@@ -340,7 +340,7 @@
                                 <li>
                                     <div class="thumb">
                                         <a href="blog-details.html"><img
-                                                src="assets/images/news/news-releted-post-3.jpeg" alt=""></a>
+                                                src="/assets/images/news/news-releted-post-3.jpeg" alt=""></a>
                                     </div>
                                     <div class="content">
                                         <h6 class="title"><a href="news-details.html">Lorem ipsum dolor sit
@@ -351,7 +351,7 @@
                                 <li>
                                     <div class="thumb">
                                         <a href="blog-details.html"><img
-                                                src="assets/images/news/news-releted-post-4.jpeg" alt=""></a>
+                                                src="/assets/images/news/news-releted-post-4.jpeg" alt=""></a>
                                     </div>
                                     <div class="content">
                                         <h6 class="title"><a href="news-details.html">Lorem ipsum dolor sit
@@ -363,7 +363,7 @@
                         </div>
                         <div class="widget sidebar grey-bg mb-40">
                             <h4 class="sidebar__title mb-30">
-                                <span><img src="assets/images/shape/heading-shape-3.png" class="mr-5" alt=""></span>
+                                <span><img src="/assets/images/shape/heading-shape-3.png" class="mr-5" alt=""></span>
                                 Categories
                             </h4>
                             <ul class="sidebar__list">
@@ -401,7 +401,7 @@
                         </div>
                         <div class="widget sidebar grey-bg mb-40">
                             <h4 class="sidebar__title mb-30">
-                                <span><img src="assets/images/shape/heading-shape-3.png" class="mr-5" alt=""></span>
+                                <span><img src="/assets/images/shape/heading-shape-3.png" class="mr-5" alt=""></span>
                                 Never Miss News
                             </h4>
                             <div class="social__links">
@@ -413,7 +413,7 @@
                         </div>
                         <div class="widget sidebar grey-bg mb-40">
                             <h4 class="sidebar__title mb-30">
-                                <span><img src="assets/images/shape/heading-shape-3.png" class="mr-5" alt=""></span>
+                                <span><img src="/assets/images/shape/heading-shape-3.png" class="mr-5" alt=""></span>
                                 Twitter Feeds
                             </h4>
                             <ul class="twitter__feeds">
@@ -457,33 +457,33 @@
                         </div>
                         <div class="widget sidebar grey-bg mb-40">
                             <h4 class="sidebar__title mb-30">
-                                <span><img src="assets/images/shape/heading-shape-3.png" class="mr-5" alt=""></span>
+                                <span><img src="/assets/images/shape/heading-shape-3.png" class="mr-5" alt=""></span>
                                 Instagram Feeds
                             </h4>
                             <ul id="Instafeed">
-                                <li><a href="#0"><img src="assets/images/news/instafeed/insta-feed-1.jpeg" alt=""></a>
+                                <li><a href="#0"><img src="/assets/images/news/instafeed/insta-feed-1.jpeg" alt=""></a>
                                 </li>
-                                <li><a href="#0"><img src="assets/images/news/instafeed/insta-feed-2.jpeg" alt=""></a>
+                                <li><a href="#0"><img src="/assets/images/news/instafeed/insta-feed-2.jpeg" alt=""></a>
                                 </li>
-                                <li><a href="#0"><img src="assets/images/news/instafeed/insta-feed-3.jpeg" alt=""></a>
+                                <li><a href="#0"><img src="/assets/images/news/instafeed/insta-feed-3.jpeg" alt=""></a>
                                 </li>
-                                <li><a href="#0"><img src="assets/images/news/instafeed/insta-feed-4.jpeg" alt=""></a>
+                                <li><a href="#0"><img src="/assets/images/news/instafeed/insta-feed-4.jpeg" alt=""></a>
                                 </li>
-                                <li><a href="#0"><img src="assets/images/news/instafeed/insta-feed-5.jpeg" alt=""></a>
+                                <li><a href="#0"><img src="/assets/images/news/instafeed/insta-feed-5.jpeg" alt=""></a>
                                 </li>
-                                <li><a href="#0"><img src="assets/images/news/instafeed/insta-feed-6.jpeg" alt=""></a>
+                                <li><a href="#0"><img src="/assets/images/news/instafeed/insta-feed-6.jpeg" alt=""></a>
                                 </li>
-                                <li><a href="#0"><img src="assets/images/news/instafeed/insta-feed-7.jpeg" alt=""></a>
+                                <li><a href="#0"><img src="/assets/images/news/instafeed/insta-feed-7.jpeg" alt=""></a>
                                 </li>
-                                <li><a href="#0"><img src="assets/images/news/instafeed/insta-feed-8.jpeg" alt=""></a>
+                                <li><a href="#0"><img src="/assets/images/news/instafeed/insta-feed-8.jpeg" alt=""></a>
                                 </li>
-                                <li><a href="#0"><img src="assets/images/news/instafeed/insta-feed-9.jpeg" alt=""></a>
+                                <li><a href="#0"><img src="/assets/images/news/instafeed/insta-feed-9.jpeg" alt=""></a>
                                 </li>
                             </ul>
                         </div>
                         <div class="widget sidebar grey-bg mb-40">
                             <h4 class="sidebar__title mb-30">
-                                <span><img src="assets/images/shape/heading-shape-3.png" class="mr-5" alt=""></span>
+                                <span><img src="/assets/images/shape/heading-shape-3.png" class="mr-5" alt=""></span>
                                 Popular Tags
                             </h4>
                             <div class="tag">
@@ -502,7 +502,7 @@
                             </div>
                         </div>
                         <div class="widget sidebar grey-bg ad__widget">
-                            <img src="assets/images/bg/news-ad-banner.jpeg" alt="">
+                            <img src="/assets/images/bg/news-ad-banner.jpeg" alt="">
                             <div class="ad-text">
                                 <h3><span>350x600</span>Add Banner</h3>
                             </div>

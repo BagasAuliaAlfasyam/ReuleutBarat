@@ -2,7 +2,7 @@
 
 @section('main')
     <!-- breadcrumb section start -->
-    <section class="breadcrumb-section pt-180 pb-180 bg_img" data-background="assets/images/bg/breadcrumb-bg-1.jpeg"
+    <section class="breadcrumb-section pt-180 pb-180 bg_img" data-background="/assets/images/bg/breadcrumb-bg-1.jpeg"
         data-overlay="dark" data-opacity="3">
         <div class="container">
             <div class="row">
@@ -70,18 +70,18 @@
             <div class="row">
                 <div class="col-xl-6">
                     <div class="gta-bg__2">
-                        <img src="assets/images/bg/gta-bg-2.png" alt="">
+                        <img src="/assets/images/bg/gta-bg-2.png" alt="">
                     </div>
                 </div>
                 <div class="col-xl-6 pl-50">
                     <div class="section-header mb-50">
                         <h4 class="sub-heading sub-heading__2 mb-15">Send Message
-                            <span><img src="assets/images/shape/heading-shape-4.png" class="mr-10" alt=""></span>
+                            <span><img src="/assets/images/shape/heading-shape-4.png" class="mr-10" alt=""></span>
                         </h4>
                         <h2 class="section-title section-title__2">Get in Touch</h2>
                     </div>
                     <div class="contact-form">
-                        <form action="assets/mail.php" method="POST" id="contact-form">
+                        <form action="/assets/mail.php" method="POST" id="contact-form">
                             <div class="form-group mt-25">
                                 <input type="text" name="name" id="name" placeholder="Your Name">
                             </div>
